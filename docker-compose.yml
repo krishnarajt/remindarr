@@ -1,5 +1,6 @@
 services:
   remindarr:
+    restart: unless-stopped
     build: .
     ports:
       - "${API_PORT}:${API_PORT}"
@@ -10,11 +11,22 @@ services:
     depends_on:
       - remindarr_db
     command: uvicorn main:app --host ${API_HOST} --port ${API_PORT} --reload
-
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - __pycache__
+            - "*.pyc"
+        - action: rebuild
+          path: requirements.txt
+        - action: rebuild
+          path: Dockerfile
   remindarr_db:
     image: postgres:16
     container_name: remindarr_postgres
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
