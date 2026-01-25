@@ -1,436 +1,6 @@
 [
     {
-        "label": "runpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "runpy",
-        "description": "runpy",
-        "detail": "runpy",
-        "documentation": {}
-    },
-    {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "site",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "site",
-        "description": "site",
-        "detail": "site",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "BaseSettings",
-        "importPath": "pydantic_settings",
-        "description": "pydantic_settings",
-        "isExtraImport": true,
-        "detail": "pydantic_settings",
-        "documentation": {}
-    },
-    {
-        "label": "SettingsConfigDict",
-        "importPath": "pydantic_settings",
-        "description": "pydantic_settings",
-        "isExtraImport": true,
-        "detail": "pydantic_settings",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "func",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "select",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "select",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "Settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "isExtraImport": true,
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "Settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "isExtraImport": true,
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "isExtraImport": true,
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "isExtraImport": true,
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -454,7 +24,103 @@
         "documentation": {}
     },
     {
-        "label": "FastAPI",
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -470,11 +136,11 @@
         "documentation": {}
     },
     {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "fastapi.responses",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -486,59 +152,303 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "enum",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "app.db.config_db",
-        "kind": 6,
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "detail": "app.db.config_db",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "get_session",
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "app.db.config_db",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "Reminders",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SignupRequest",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthResponse",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshRequest",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshResponse",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SaveScheduleRequest",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DailySchedule",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ApiResponse",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSettings",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateSettingsRequest",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ApiResponse",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramLinkResponse",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DailySchedule",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TaskBlockJson",
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "isExtraImport": true,
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_refresh_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_refresh_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "isExtraImport": true,
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "User",
         "importPath": "app.db.models",
         "description": "app.db.models",
         "isExtraImport": true,
@@ -546,7 +456,7 @@
         "documentation": {}
     },
     {
-        "label": "Users",
+        "label": "User",
         "importPath": "app.db.models",
         "description": "app.db.models",
         "isExtraImport": true,
@@ -554,7 +464,7 @@
         "documentation": {}
     },
     {
-        "label": "Reminders",
+        "label": "User",
         "importPath": "app.db.models",
         "description": "app.db.models",
         "isExtraImport": true,
@@ -562,7 +472,7 @@
         "documentation": {}
     },
     {
-        "label": "Users",
+        "label": "User",
         "importPath": "app.db.models",
         "description": "app.db.models",
         "isExtraImport": true,
@@ -570,84 +480,457 @@
         "documentation": {}
     },
     {
-        "label": "send_message",
-        "importPath": "app.services.telegram",
-        "description": "app.services.telegram",
+        "label": "User",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.services.telegram",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "send_message",
-        "importPath": "app.services.telegram",
-        "description": "app.services.telegram",
+        "label": "TelegramLinkCode",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.services.telegram",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "logger",
-        "importPath": "app.utils.logging_utils",
-        "description": "app.utils.logging_utils",
+        "label": "Task",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.logging_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "logger",
-        "importPath": "app.utils.logging_utils",
-        "description": "app.utils.logging_utils",
+        "label": "User",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.logging_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "parse_time_unit",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "RefreshToken",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "calculate_next_trigger",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "User",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "format_datetime_for_user",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "Schedule",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "calculate_next_trigger",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "Task",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.db.models",
         "documentation": {}
     },
     {
-        "label": "parse_time_unit",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "fastapi.security",
         "documentation": {}
     },
     {
-        "label": "asyncio",
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "save_schedule",
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "isExtraImport": true,
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_schedule_for_date",
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "isExtraImport": true,
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_today_schedule",
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "isExtraImport": true,
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "generate_link_code",
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "isExtraImport": true,
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "handle_telegram_webhook",
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "isExtraImport": true,
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "process_notifications",
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "isExtraImport": true,
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "os",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UniqueConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -660,20 +943,12 @@
         "documentation": {}
     },
     {
-        "label": "config_db",
-        "importPath": "app.db",
-        "description": "app.db",
-        "isExtraImport": true,
-        "detail": "app.db",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
+        "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -694,484 +969,717 @@
     },
     {
         "label": "router",
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
         "isExtraImport": true,
-        "detail": "app.router.notification_router",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
-        "label": "start_worker",
-        "importPath": "app.services.notification_worker",
-        "description": "app.services.notification_worker",
+        "label": "router",
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
         "isExtraImport": true,
-        "detail": "app.services.notification_worker",
+        "detail": "app.api.user_routes",
         "documentation": {}
     },
     {
-        "label": "stop_worker",
-        "importPath": "app.services.notification_worker",
-        "description": "app.services.notification_worker",
+        "label": "router",
+        "importPath": "app.api.schedule_routes",
+        "description": "app.api.schedule_routes",
         "isExtraImport": true,
-        "detail": "app.services.notification_worker",
+        "detail": "app.api.schedule_routes",
         "documentation": {}
     },
     {
-        "label": "bin_dir",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "router",
+        "importPath": "app.api.webhook_routes",
+        "description": "app.api.webhook_routes",
+        "isExtraImport": true,
+        "detail": "app.api.webhook_routes",
         "documentation": {}
     },
     {
-        "label": "base",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"PATH\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"VIRTUAL_ENV\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "prev_length",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "sys.path[:]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "sys.real_prefix",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "sys.prefix",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "Settings",
-        "kind": 6,
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "peekOfCode": "class Settings(BaseSettings):\n    db_user: str\n    db_password: str\n    db_name: str\n    db_host: str\n    db_port: int\n    db_schema: str = \"public\"\n    bot_token: str\n    chat_id: str\n    model_config = SettingsConfigDict()",
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "kind": 5,
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
-        "peekOfCode": "settings = Settings()",
-        "detail": "app.constants.constants",
-        "documentation": {}
-    },
-    {
-        "label": "PricePerGramResponse",
-        "kind": 6,
-        "importPath": "app.constants.schemas",
-        "description": "app.constants.schemas",
-        "peekOfCode": "class PricePerGramResponse(BaseModel):\n    price_per_gram: float = Field(..., alias=\"pricePerGram\")\n    class Config:\n        # allow both snake_case (internal) and camelCase (external)\n        populate_by_name = True\n        orm_mode = True",
-        "detail": "app.constants.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "init_db",
+        "label": "login",
         "kind": 2,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "peekOfCode": "def init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.\n    \"\"\"\n    # Get our target schema\n    schema = Settings().db_schema\n    # Create a raw connection to create the schema\n    with engine.begin() as conn:\n        # Check if schema exists\n        result = conn.execute(",
-        "detail": "app.db.config_db",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "peekOfCode": "def login(request: LoginRequest, db: Session = Depends(get_db)):\n    \"\"\"Login with username and password\"\"\"\n    user = authenticate_user(db, request.username, request.password)\n    if not user:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Invalid username or password\"\n        )\n    access_token = create_access_token(user.id)\n    refresh_token = create_refresh_token(db, user.id)",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
-        "label": "get_session",
+        "label": "signup",
         "kind": 2,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "peekOfCode": "def get_session():\n    \"\"\"\n    FastAPI dependency for a per-request session.\n    \"\"\"\n    with Session(engine) as session:\n        yield session",
-        "detail": "app.db.config_db",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "peekOfCode": "def signup(request: SignupRequest, db: Session = Depends(get_db)):\n    \"\"\"Create a new user account\"\"\"\n    # Check if username exists\n    existing_user = db.query(User).filter(User.username == request.username).first()\n    if existing_user:\n        raise HTTPException(\n            status_code=status.HTTP_400_BAD_REQUEST,\n            detail=\"Username already exists\"\n        )\n    # Create user",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
-        "label": "db_url",
-        "kind": 5,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "peekOfCode": "db_url = (\n    f\"postgresql+psycopg2://\"\n    f\"{Settings().db_user}:{Settings().db_password}@\"\n    f\"{Settings().db_host}:{Settings().db_port}/{Settings().db_name}\"\n)\n# Create SQLModel engine (sync)\nengine = create_engine(db_url, echo=True, future=True)\ndef init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.",
-        "detail": "app.db.config_db",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "peekOfCode": "engine = create_engine(db_url, echo=True, future=True)\ndef init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.\n    \"\"\"\n    # Get our target schema\n    schema = Settings().db_schema\n    # Create a raw connection to create the schema\n    with engine.begin() as conn:\n        # Check if schema exists",
-        "detail": "app.db.config_db",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 6,
-        "importPath": "app.db.models",
-        "description": "app.db.models",
-        "peekOfCode": "class Base(SQLModel):\n    __table_args__ = {\"schema\": Settings().db_schema}\nclass Users(Base, table=True):\n    \"\"\"Store user information and integration settings.\"\"\"\n    __tablename__ = \"users\"\n    # Telegram Info (from message.from and message.chat)\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None, description=\"Telegram username\")\n    first_name: Optional[str] = Field(\n        default=None, description=\"User's first name from Telegram\"",
-        "detail": "app.db.models",
-        "documentation": {}
-    },
-    {
-        "label": "Users",
-        "kind": 6,
-        "importPath": "app.db.models",
-        "description": "app.db.models",
-        "peekOfCode": "class Users(Base, table=True):\n    \"\"\"Store user information and integration settings.\"\"\"\n    __tablename__ = \"users\"\n    # Telegram Info (from message.from and message.chat)\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None, description=\"Telegram username\")\n    first_name: Optional[str] = Field(\n        default=None, description=\"User's first name from Telegram\"\n    )\n    language_code: Optional[str] = Field(",
-        "detail": "app.db.models",
-        "documentation": {}
-    },
-    {
-        "label": "Reminders",
-        "kind": 6,
-        "importPath": "app.db.models",
-        "description": "app.db.models",
-        "peekOfCode": "class Reminders(Base, table=True):\n    __tablename__ = \"reminders\"\n    id: str = Field(\n        default_factory=lambda: str(uuid.uuid4()), primary_key=True, index=True\n    )\n    created_at: Optional[datetime] = Field(\n        sa_column=Column(\n            DateTime(timezone=True), server_default=func.now(), nullable=False\n        )\n    )",
-        "detail": "app.db.models",
-        "documentation": {}
-    },
-    {
-        "label": "FlowType",
-        "kind": 6,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "class FlowType(Enum):\n    NONE = \"none\"\n    REMINDER = \"reminder\"\n    NOTION = \"notion\"\n    SETTINGS = \"settings\"\nclass NotionStep(Enum):\n    MENU = 0\n    TOKEN = 1\n    DB_ID = 2\n    NAME_PROP = 3",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "NotionStep",
-        "kind": 6,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "class NotionStep(Enum):\n    MENU = 0\n    TOKEN = 1\n    DB_ID = 2\n    NAME_PROP = 3\n    TIME_PROP = 4\n    STATUS_PROP = 5\n    IMPORT_CONFIRM = 6\n    REMOVE_DB = 7\nclass ReminderStep(Enum):",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "ReminderStep",
-        "kind": 6,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "class ReminderStep(Enum):\n    START = 0\n    NAME = 1\n    TYPE = 2\n    UNIT = 3\n    AMOUNT = 4\n    CONTENT = 5\n# ============================================\n# STATE MANAGEMENT\n# ============================================",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "UserState",
-        "kind": 6,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "class UserState:\n    \"\"\"Manages conversational state for a user.\"\"\"\n    def __init__(self):\n        self.flow_type = FlowType.NONE\n        self.step = 0\n        self.data = {}\n    def reset(self):\n        self.flow_type = FlowType.NONE\n        self.step = 0\n        self.data = {}",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "SettingsPayload",
-        "kind": 6,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "class SettingsPayload(BaseModel):\n    chat_id: str\n    notion_enabled: Optional[bool] = None\n    notion_check_frequence: Optional[int] = None\n@router.get(\"/settings/{chat_id}\")\ndef get_settings(chat_id: str, db: Session = Depends(get_session)):\n    \"\"\"Get user settings.\"\"\"\n    try:\n        user = db.get(Users, str(chat_id))\n        if not user:",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_state",
+        "label": "refresh_token",
         "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def get_user_state(chat_id: int) -> UserState:\n    \"\"\"Get or create user state.\"\"\"\n    if chat_id not in user_states:\n        user_states[chat_id] = UserState()\n    return user_states[chat_id]\ndef clear_user_state(chat_id: int):\n    \"\"\"Clear user state.\"\"\"\n    if chat_id in user_states:\n        del user_states[chat_id]\n# ============================================",
-        "detail": "app.router.notification_router",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "peekOfCode": "def refresh_token(request: RefreshRequest, db: Session = Depends(get_db)):\n    \"\"\"Get a new access token using refresh token\"\"\"\n    user_id = verify_refresh_token(db, request.refreshToken)\n    if not user_id:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Invalid or expired refresh token\"\n        )\n    new_access_token = create_access_token(user_id)\n    return RefreshResponse(accessToken=new_access_token)",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
-        "label": "clear_user_state",
+        "label": "logout",
         "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def clear_user_state(chat_id: int):\n    \"\"\"Clear user state.\"\"\"\n    if chat_id in user_states:\n        del user_states[chat_id]\n# ============================================\n# USER MANAGEMENT\n# ============================================\nasync def get_or_create_user(db: Session, telegram_data: dict) -> Users:\n    \"\"\"Get existing user or create new one from Telegram data.\"\"\"\n    message = telegram_data[\"message\"]",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "validate_notion_token",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def validate_notion_token(token: str) -> tuple[bool, Optional[dict]]:\n    \"\"\"Validate Notion API token.\"\"\"\n    headers = {\n        \"Authorization\": f\"Bearer {token}\",\n        \"Notion-Version\": \"2022-06-28\",\n    }\n    try:\n        resp = requests.get(\n            \"https://api.notion.com/v1/users/me\", headers=headers, timeout=10\n        )",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "get_notion_database",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def get_notion_database(token: str, db_id: str) -> tuple[bool, Optional[dict]]:\n    \"\"\"Fetch Notion database details.\"\"\"\n    headers = {\n        \"Authorization\": f\"Bearer {token}\",\n        \"Notion-Version\": \"2022-06-28\",\n    }\n    try:\n        resp = requests.get(\n            f\"https://api.notion.com/v1/databases/{db_id}\", headers=headers, timeout=10\n        )",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "query_notion_database",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def query_notion_database(\n    token: str,\n    db_id: str,\n    time_prop: str = None,\n    status_prop: str = None,\n    status_prop_type: str = None,\n) -> tuple[bool, list]:\n    \"\"\"Query Notion database for incomplete tasks due in the next 24 hours.\"\"\"\n    headers = {\n        \"Authorization\": f\"Bearer {token}\",",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "extract_notion_property_value",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def extract_notion_property_value(prop_data: dict) -> Optional[str]:\n    \"\"\"Extract value from Notion property based on type.\"\"\"\n    if not prop_data:\n        return None\n    prop_type = prop_data.get(\"type\")\n    if prop_type == \"title\":\n        arr = prop_data.get(\"title\", [])\n        return \"\".join([t.get(\"plain_text\", \"\") for t in arr]).strip() or None\n    elif prop_type == \"rich_text\":\n        arr = prop_data.get(\"rich_text\", [])",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "escape_markdown",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def escape_markdown(text: str) -> str:\n    \"\"\"Escape special characters for Telegram Markdown.\"\"\"\n    if not text:\n        return \"\"\n    # Escape special markdown characters\n    special_chars = [\n        \"_\",\n        \"*\",\n        \"[\",\n        \"]\",",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "send_start_message",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def send_start_message(chat_id: int, user: Users):\n    \"\"\"Send welcome message with user's name.\"\"\"\n    name = user.first_name or user.username or \"there\"\n    message = f\"\"\"👋 Hello {name}! Welcome to Reminder Bot!\nI can help you manage reminders and sync with Notion databases.\n📋 Available Commands:\n/start - Show this welcome message\n/add - Create a new reminder\n/list - View all your reminders\n/notion - Set up Notion integration",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "send_help_message",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def send_help_message(chat_id: int):\n    \"\"\"Send detailed help message.\"\"\"\n    message = \"\"\"📚 Reminder Bot Help\nCreating Reminders:\nUse /add to create a new reminder. I'll guide you through:\n• Naming your reminder\n• Setting it as one-time or recurring\n• Choosing the time interval (minutes/hours/days)\n• Adding a custom message\nNotion Integration:",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "send_settings_menu",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def send_settings_menu(chat_id: int, user: Users):\n    \"\"\"Send interactive settings menu.\"\"\"\n    notion_status = \"✅ Enabled\" if user.notion_enabled else \"❌ Disabled\"\n    freq = getattr(user, \"notion_check_frequence\", 12)\n    db_count = len(user.notion_db_pages or [])\n    message = f\"\"\"⚙️ Settings Menu\nNotion Integration: {notion_status}\nRefresh Frequency: {freq} hours\nConnected Databases: {db_count}\nAvailable Commands:",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "send_notion_menu",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def send_notion_menu(chat_id: int, user: Users):\n    \"\"\"Send Notion integration menu.\"\"\"\n    has_token = bool(user.notion_api_key)\n    if not has_token:\n        message = \"\"\"🔗 Notion Integration Setup\nTo connect with Notion, I'll need an integration token.\n📝 How to get your token:\n1. Go to https://www.notion.so/my-integrations\n2. Click \"+ New integration\"\n3. Give it a name and submit",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "get_settings",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def get_settings(chat_id: str, db: Session = Depends(get_session)):\n    \"\"\"Get user settings.\"\"\"\n    try:\n        user = db.get(Users, str(chat_id))\n        if not user:\n            raise HTTPException(status_code=404, detail=\"User not found\")\n        return {\n            \"chat_id\": user.chat_id,\n            \"username\": user.username,\n            \"first_name\": user.first_name,",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "update_settings",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def update_settings(payload: SettingsPayload, db: Session = Depends(get_session)):\n    \"\"\"Update user settings.\"\"\"\n    try:\n        user = db.get(Users, str(payload.chat_id))\n        if not user:\n            raise HTTPException(status_code=404, detail=\"User not found\")\n        changed = False\n        if payload.notion_enabled is not None:\n            user.notion_enabled = bool(payload.notion_enabled)\n            changed = True",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "reset_notion_integration",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def reset_notion_integration(chat_id: str, db: Session = Depends(get_session)):\n    \"\"\"Reset Notion integration for a user.\"\"\"\n    try:\n        user = db.get(Users, str(chat_id))\n        if not user:\n            raise HTTPException(status_code=404, detail=\"User not found\")\n        user.notion_api_key = None\n        user.notion_enabled = False\n        user.notion_db_pages = []\n        user.notion_db_mappings = []",
-        "detail": "app.router.notification_router",
-        "documentation": {}
-    },
-    {
-        "label": "health_check",
-        "kind": 2,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "def health_check():\n    \"\"\"Health check endpoint.\"\"\"\n    return {\n        \"status\": \"ok\",\n        \"service\": \"notification-router\",\n        \"timestamp\": datetime.utcnow().isoformat(),\n    }",
-        "detail": "app.router.notification_router",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "peekOfCode": "def logout(request: RefreshRequest, db: Session = Depends(get_db)):\n    \"\"\"Logout and revoke refresh token\"\"\"\n    revoke_refresh_token(db, request.refreshToken)\n    return {\"success\": True, \"message\": \"Logged out successfully\"}",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
-        "peekOfCode": "router = APIRouter(prefix=\"/notifications\", tags=[\"notifications\"])\n# ============================================\n# ENUMS & CONSTANTS\n# ============================================\nclass FlowType(Enum):\n    NONE = \"none\"\n    REMINDER = \"reminder\"\n    NOTION = \"notion\"\n    SETTINGS = \"settings\"\nclass NotionStep(Enum):",
-        "detail": "app.router.notification_router",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Authentication\"])\n@router.post(\"/login\", response_model=AuthResponse)\ndef login(request: LoginRequest, db: Session = Depends(get_db)):\n    \"\"\"Login with username and password\"\"\"\n    user = authenticate_user(db, request.username, request.password)\n    if not user:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Invalid username or password\"\n        )",
+        "detail": "app.api.auth_routes",
         "documentation": {}
     },
     {
-        "label": "start_worker",
-        "kind": 2,
-        "importPath": "app.services.notification_worker",
-        "description": "app.services.notification_worker",
-        "peekOfCode": "def start_worker(app) -> None:\n    \"\"\"Start the reminder background task. Call from an async startup handler.\"\"\"\n    # create stop event and background task\n    app.state._reminder_stop = asyncio.Event()\n    app.state._reminder_task = asyncio.create_task(_reminder_loop(app))\nasync def stop_worker(app) -> None:\n    \"\"\"Signal the worker to stop and await its completion. Call from async shutdown handler.\"\"\"\n    if not hasattr(app.state, \"_reminder_stop\"):\n        return\n    app.state._reminder_stop.set()",
-        "detail": "app.services.notification_worker",
-        "documentation": {}
-    },
-    {
-        "label": "CHECK_INTERVAL_SECONDS",
+        "label": "security",
         "kind": 5,
-        "importPath": "app.services.notification_worker",
-        "description": "app.services.notification_worker",
-        "peekOfCode": "CHECK_INTERVAL_SECONDS = 60  # how often to poll for due reminders\nasync def _reminder_loop(app) -> None:\n    \"\"\"Background loop: query due reminders, send messages, reschedule.\"\"\"\n    engine = config_db.engine\n    # use a stop event stored on the app state to allow graceful shutdown\n    stop_event: asyncio.Event = app.state._reminder_stop\n    while not stop_event.is_set():\n        try:\n            utc_now = datetime.datetime.now(pytz.UTC)\n            # Use a DB session to select due reminders and lock rows to avoid double-processing",
-        "detail": "app.services.notification_worker",
+        "importPath": "app.api.dependencies",
+        "description": "app.api.dependencies",
+        "peekOfCode": "security = HTTPBearer()\nasync def get_current_user(\n    credentials: HTTPAuthorizationCredentials = Depends(security),\n    db: Session = Depends(get_db)\n) -> User:\n    \"\"\"Get the current authenticated user from JWT token\"\"\"\n    token = credentials.credentials\n    user_id = verify_access_token(token)\n    if user_id is None:\n        raise HTTPException(",
+        "detail": "app.api.dependencies",
         "documentation": {}
     },
     {
-        "label": "send_message",
+        "label": "save_daily_schedule",
         "kind": 2,
-        "importPath": "app.services.telegram",
-        "description": "app.services.telegram",
-        "peekOfCode": "def send_message(bot_token: str, chat_id: str, message: str) -> None:\n    url = f\"https://api.telegram.org/bot{bot_token}/sendMessage\"\n    payload = {\n        \"chat_id\": chat_id,\n        \"text\": message\n    }\n    response = requests.post(url, json=payload)\n    response.raise_for_status()  # Raise an error for bad responses",
-        "detail": "app.services.telegram",
+        "importPath": "app.api.schedule_routes",
+        "description": "app.api.schedule_routes",
+        "peekOfCode": "def save_daily_schedule(\n    request: SaveScheduleRequest,\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Save or update a daily schedule\"\"\"\n    try:\n        save_schedule(db, current_user.id, request.schedule)\n        return ApiResponse(success=True, message=\"Schedule saved successfully\")\n    except Exception as e:",
+        "detail": "app.api.schedule_routes",
         "documentation": {}
     },
     {
-        "label": "logger",
+        "label": "get_todays_schedule",
+        "kind": 2,
+        "importPath": "app.api.schedule_routes",
+        "description": "app.api.schedule_routes",
+        "peekOfCode": "def get_todays_schedule(\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Get today's schedule\"\"\"\n    schedule = get_today_schedule(db, current_user.id)\n    if not schedule:\n        # Return empty schedule for today\n        today = date.today().isoformat()\n        return DailySchedule(",
+        "detail": "app.api.schedule_routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_schedule_by_date",
+        "kind": 2,
+        "importPath": "app.api.schedule_routes",
+        "description": "app.api.schedule_routes",
+        "peekOfCode": "def get_schedule_by_date(\n    schedule_date: str,\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Get schedule for a specific date (YYYY-MM-DD format)\"\"\"\n    # Validate date format\n    try:\n        date.fromisoformat(schedule_date)\n    except ValueError:",
+        "detail": "app.api.schedule_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
         "kind": 5,
-        "importPath": "app.utils.logging_utils",
-        "description": "app.utils.logging_utils",
-        "peekOfCode": "logger = logging.getLogger(\"uvicorn.error\")\n# let default be INFO\nlogger.setLevel(logging.INFO)",
-        "detail": "app.utils.logging_utils",
+        "importPath": "app.api.schedule_routes",
+        "description": "app.api.schedule_routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/schedule\", tags=[\"Schedule\"])\n@router.post(\"/save\", response_model=ApiResponse)\ndef save_daily_schedule(\n    request: SaveScheduleRequest,\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Save or update a daily schedule\"\"\"\n    try:\n        save_schedule(db, current_user.id, request.schedule)",
+        "detail": "app.api.schedule_routes",
         "documentation": {}
     },
     {
-        "label": "parse_time_unit",
+        "label": "LoginRequest",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    username: str\n    password: str\nclass SignupRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=100)\n    password: str = Field(..., min_length=6)\nclass AuthResponse(BaseModel):\n    accessToken: str\n    refreshToken: str\n    message: Optional[str] = None",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SignupRequest",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class SignupRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=100)\n    password: str = Field(..., min_length=6)\nclass AuthResponse(BaseModel):\n    accessToken: str\n    refreshToken: str\n    message: Optional[str] = None\nclass RefreshRequest(BaseModel):\n    refreshToken: str\nclass RefreshResponse(BaseModel):",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class AuthResponse(BaseModel):\n    accessToken: str\n    refreshToken: str\n    message: Optional[str] = None\nclass RefreshRequest(BaseModel):\n    refreshToken: str\nclass RefreshResponse(BaseModel):\n    accessToken: str\n# ============ User/Settings Schemas ============\nclass UserSettings(BaseModel):",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshRequest",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refreshToken: str\nclass RefreshResponse(BaseModel):\n    accessToken: str\n# ============ User/Settings Schemas ============\nclass UserSettings(BaseModel):\n    name: str\n    remindBeforeActivity: bool = True\n    remindOnStart: bool = True\n    nudgeDuringActivity: bool = True",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class RefreshResponse(BaseModel):\n    accessToken: str\n# ============ User/Settings Schemas ============\nclass UserSettings(BaseModel):\n    name: str\n    remindBeforeActivity: bool = True\n    remindOnStart: bool = True\n    nudgeDuringActivity: bool = True\n    congratulateOnFinish: bool = True\n    defaultSlotDuration: int = 60",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSettings",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class UserSettings(BaseModel):\n    name: str\n    remindBeforeActivity: bool = True\n    remindOnStart: bool = True\n    nudgeDuringActivity: bool = True\n    congratulateOnFinish: bool = True\n    defaultSlotDuration: int = 60\n    timezone: Optional[str] = \"Asia/Kolkata\"\n    telegramLinked: Optional[bool] = False\nclass UpdateSettingsRequest(BaseModel):",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateSettingsRequest",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class UpdateSettingsRequest(BaseModel):\n    name: str\n    remindBeforeActivity: bool\n    remindOnStart: bool\n    nudgeDuringActivity: bool\n    congratulateOnFinish: bool\n    defaultSlotDuration: int\n    timezone: Optional[str] = None\nclass ApiResponse(BaseModel):\n    success: bool",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ApiResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class ApiResponse(BaseModel):\n    success: bool\n    message: Optional[str] = None\n# ============ Task Schemas ============\nclass TaskBlockJson(BaseModel):\n    id: str\n    startTime: str  # HH:MM format\n    endTime: str    # HH:MM format\n    task: str\nclass DailySchedule(BaseModel):",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TaskBlockJson",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class TaskBlockJson(BaseModel):\n    id: str\n    startTime: str  # HH:MM format\n    endTime: str    # HH:MM format\n    task: str\nclass DailySchedule(BaseModel):\n    date: str  # YYYY-MM-DD format\n    createdAt: str\n    updatedAt: str\n    tasks: List[TaskBlockJson]",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DailySchedule",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class DailySchedule(BaseModel):\n    date: str  # YYYY-MM-DD format\n    createdAt: str\n    updatedAt: str\n    tasks: List[TaskBlockJson]\nclass SaveScheduleRequest(BaseModel):\n    schedule: DailySchedule\nclass TaskResponse(BaseModel):\n    id: str\n    startTime: str",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SaveScheduleRequest",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class SaveScheduleRequest(BaseModel):\n    schedule: DailySchedule\nclass TaskResponse(BaseModel):\n    id: str\n    startTime: str\n    endTime: str\n    task: str\n    isCompleted: bool = False\n    class Config:\n        from_attributes = True",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TaskResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class TaskResponse(BaseModel):\n    id: str\n    startTime: str\n    endTime: str\n    task: str\n    isCompleted: bool = False\n    class Config:\n        from_attributes = True\nclass ScheduleResponse(BaseModel):\n    date: str",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class ScheduleResponse(BaseModel):\n    date: str\n    tasks: List[TaskResponse]\n    class Config:\n        from_attributes = True\n# ============ Telegram Schemas ============\nclass TelegramLinkResponse(BaseModel):\n    code: str\n    expiresAt: str\n    message: str",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramLinkResponse",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class TelegramLinkResponse(BaseModel):\n    code: str\n    expiresAt: str\n    message: str\nclass TelegramWebhookUpdate(BaseModel):\n    update_id: int\n    message: Optional[dict] = None\n    callback_query: Optional[dict] = None",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramWebhookUpdate",
+        "kind": 6,
+        "importPath": "app.api.schemas",
+        "description": "app.api.schemas",
+        "peekOfCode": "class TelegramWebhookUpdate(BaseModel):\n    update_id: int\n    message: Optional[dict] = None\n    callback_query: Optional[dict] = None",
+        "detail": "app.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
         "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def parse_time_unit(unit_text: str) -> Tuple[Optional[int], Optional[str]]:\n    \"\"\"Convert user input time unit to multiplier and normalized unit name.\n    Returns (multiplier_in_minutes, normalized_unit_name) or (None, None) if\n    the unit isn't recognized.\n    \"\"\"\n    unit = unit_text.strip().lower()\n    if unit in (\"m\", \"min\", \"mins\", \"minute\", \"minutes\"):\n        return 1, \"minutes\"\n    elif unit in (\"h\", \"hr\", \"hrs\", \"hour\", \"hours\"):\n        return 60, \"hours\"",
-        "detail": "app.utils.time_utils",
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
+        "peekOfCode": "def get_settings(\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Get user settings\"\"\"\n    return UserSettings(\n        name=current_user.display_name or \"\",\n        remindBeforeActivity=current_user.remind_before_activity,\n        remindOnStart=current_user.remind_on_start,\n        nudgeDuringActivity=current_user.nudge_during_activity,",
+        "detail": "app.api.user_routes",
         "documentation": {}
     },
     {
-        "label": "get_user_timezone",
+        "label": "update_settings",
         "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def get_user_timezone(tz_name: Optional[str]):\n    \"\"\"Return a timezone object (ZoneInfo) or UTC on error/None.\"\"\"\n    if not tz_name:\n        return ZoneInfo(\"UTC\") if ZoneInfo else timezone.utc\n    try:\n        return ZoneInfo(tz_name) if ZoneInfo else timezone.utc\n    except ZoneInfoNotFoundError:\n        return ZoneInfo(\"UTC\") if ZoneInfo else timezone.utc\ndef get_time_in_timezone(dt: datetime, tz_name: Optional[str]) -> datetime:\n    \"\"\"Convert a naive or UTC datetime to the user's timezone.",
-        "detail": "app.utils.time_utils",
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
+        "peekOfCode": "def update_settings(\n    request: UpdateSettingsRequest,\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Update user settings\"\"\"\n    current_user.display_name = request.name\n    current_user.remind_before_activity = request.remindBeforeActivity\n    current_user.remind_on_start = request.remindOnStart\n    current_user.nudge_during_activity = request.nudgeDuringActivity",
+        "detail": "app.api.user_routes",
         "documentation": {}
     },
     {
-        "label": "get_time_in_timezone",
+        "label": "get_telegram_link_code",
         "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def get_time_in_timezone(dt: datetime, tz_name: Optional[str]) -> datetime:\n    \"\"\"Convert a naive or UTC datetime to the user's timezone.\n    The returned datetime will have tzinfo set to the user's tz.\n    \"\"\"\n    if dt.tzinfo is None:\n        # assume naive datetimes are UTC\n        dt = dt.replace(tzinfo=timezone.utc)\n    user_tz = get_user_timezone(tz_name)\n    return dt.astimezone(user_tz)\ndef now_in_timezone(tz_name: Optional[str]) -> Tuple[datetime, datetime]:",
-        "detail": "app.utils.time_utils",
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
+        "peekOfCode": "def get_telegram_link_code(\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Generate a code to link Telegram account\"\"\"\n    code = generate_link_code(db, current_user.id)\n    expires_at = datetime.utcnow() + timedelta(minutes=10)\n    return TelegramLinkResponse(\n        code=code,\n        expiresAt=expires_at.isoformat(),",
+        "detail": "app.api.user_routes",
         "documentation": {}
     },
     {
-        "label": "now_in_timezone",
+        "label": "unlink_telegram_account",
         "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def now_in_timezone(tz_name: Optional[str]) -> Tuple[datetime, datetime]:\n    \"\"\"Return (utc_now, local_now) where local_now is utc_now in user's tz.\"\"\"\n    utc_now = datetime.now(timezone.utc)\n    user_tz = get_user_timezone(tz_name)\n    local_now = utc_now.astimezone(user_tz)\n    return utc_now, local_now\ndef format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format datetime in user's timezone for display.\"\"\"\n    local_dt = get_time_in_timezone(dt, tz_name)\n    tz_abbr = local_dt.tzname() or \"UTC\"",
-        "detail": "app.utils.time_utils",
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
+        "peekOfCode": "def unlink_telegram_account(\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Unlink Telegram account\"\"\"\n    if not current_user.telegram_chat_id:\n        raise HTTPException(\n            status_code=status.HTTP_400_BAD_REQUEST,\n            detail=\"No Telegram account linked\"\n        )",
+        "detail": "app.api.user_routes",
         "documentation": {}
     },
     {
-        "label": "format_datetime_for_user",
-        "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format datetime in user's timezone for display.\"\"\"\n    local_dt = get_time_in_timezone(dt, tz_name)\n    tz_abbr = local_dt.tzname() or \"UTC\"\n    return f\"{local_dt.strftime('%Y-%m-%d %H:%M')} {tz_abbr}\"\ndef calculate_next_trigger(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,\n    timezone: Optional[str] = None,",
-        "detail": "app.utils.time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "calculate_next_trigger",
-        "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def calculate_next_trigger(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,\n    timezone: Optional[str] = None,\n) -> Tuple[Optional[int], datetime]:\n    \"\"\"Calculate interval_minutes and next_trigger_at in UTC.\n    - amount: numeric amount in the chosen unit\n    - multiplier: minutes per unit (e.g. 60 for hours)\n    - is_recurring: whether the reminder should repeat",
-        "detail": "app.utils.time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "app",
+        "label": "router",
         "kind": 5,
+        "importPath": "app.api.user_routes",
+        "description": "app.api.user_routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/user\", tags=[\"User\"])\n@router.get(\"/settings\", response_model=UserSettings)\ndef get_settings(\n    current_user: User = Depends(get_current_user),\n    db: Session = Depends(get_db)\n):\n    \"\"\"Get user settings\"\"\"\n    return UserSettings(\n        name=current_user.display_name or \"\",\n        remindBeforeActivity=current_user.remind_before_activity,",
+        "detail": "app.api.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.webhook_routes",
+        "description": "app.api.webhook_routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/webhook\", tags=[\"Webhook\"])\n@router.post(\"/telegram\")\nasync def telegram_webhook(request: Request):\n    \"\"\"Handle incoming Telegram webhook updates\"\"\"\n    try:\n        update = await request.json()\n        result = await handle_telegram_webhook(update)\n        return {\"status\": result}\n    except Exception as e:\n        print(f\"Webhook error: {e}\")",
+        "detail": "app.api.webhook_routes",
+        "documentation": {}
+    },
+    {
+        "label": "generate_link_code",
+        "kind": 2,
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "peekOfCode": "def generate_link_code(db: Session, user_id: int) -> str:\n    \"\"\"Generate a 6-digit code for linking Telegram account\"\"\"\n    # Delete any existing codes for this user\n    db.query(TelegramLinkCode).filter(TelegramLinkCode.user_id == user_id).delete()\n    # Generate new code\n    code = ''.join(random.choices(string.digits, k=6))\n    # Store code with 10 minute expiry\n    link_code = TelegramLinkCode(\n        user_id=user_id,\n        code=code,",
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "verify_link_code",
+        "kind": 2,
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "peekOfCode": "def verify_link_code(db: Session, code: str, telegram_chat_id: str, telegram_username: str = None) -> Optional[User]:\n    \"\"\"Verify a link code and connect Telegram account\"\"\"\n    link_code = db.query(TelegramLinkCode).filter(\n        TelegramLinkCode.code == code,\n        TelegramLinkCode.expires_at > datetime.utcnow()\n    ).first()\n    if not link_code:\n        return None\n    # Get user and update Telegram info\n    user = db.query(User).filter(User.id == link_code.user_id).first()",
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "unlink_telegram",
+        "kind": 2,
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "peekOfCode": "def unlink_telegram(db: Session, user_id: int) -> bool:\n    \"\"\"Unlink Telegram account from user\"\"\"\n    user = db.query(User).filter(User.id == user_id).first()\n    if user:\n        user.telegram_chat_id = None\n        user.telegram_username = None\n        db.commit()\n        return True\n    return False\nasync def handle_telegram_webhook(update: dict) -> str:",
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "TELEGRAM_BOT_TOKEN",
+        "kind": 5,
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "peekOfCode": "TELEGRAM_BOT_TOKEN = os.getenv(\"TELEGRAM_BOT_TOKEN\", \"\")\nTELEGRAM_API_URL = f\"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}\"\nasync def send_message(chat_id: str, text: str, parse_mode: str = \"HTML\") -> bool:\n    \"\"\"Send a message to a Telegram chat\"\"\"\n    if not TELEGRAM_BOT_TOKEN:\n        print(\"Warning: TELEGRAM_BOT_TOKEN not set\")\n        return False\n    try:\n        async with httpx.AsyncClient() as client:\n            response = await client.post(",
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "TELEGRAM_API_URL",
+        "kind": 5,
+        "importPath": "app.bot.telegram_bot",
+        "description": "app.bot.telegram_bot",
+        "peekOfCode": "TELEGRAM_API_URL = f\"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}\"\nasync def send_message(chat_id: str, text: str, parse_mode: str = \"HTML\") -> bool:\n    \"\"\"Send a message to a Telegram chat\"\"\"\n    if not TELEGRAM_BOT_TOKEN:\n        print(\"Warning: TELEGRAM_BOT_TOKEN not set\")\n        return False\n    try:\n        async with httpx.AsyncClient() as client:\n            response = await client.post(\n                f\"{TELEGRAM_API_URL}/sendMessage\",",
+        "detail": "app.bot.telegram_bot",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "def get_db():\n    \"\"\"Dependency for getting database session\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef init_db():\n    \"\"\"Initialize database tables\"\"\"\n    from app.db.models import User, Schedule, Task, RefreshToken, TelegramLinkCode",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "def init_db():\n    \"\"\"Initialize database tables\"\"\"\n    from app.db.models import User, Schedule, Task, RefreshToken, TelegramLinkCode\n    Base.metadata.create_all(bind=engine)",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "DATABASE_URL = os.getenv(\n    \"DATABASE_URL\", \n    \"postgresql://second_thought:second_thought@localhost:5432/second_thought\"\n)\n# Handle postgres:// vs postgresql:// (for compatibility)\nif DATABASE_URL.startswith(\"postgres://\"):\n    DATABASE_URL = DATABASE_URL.replace(\"postgres://\", \"postgresql://\", 1)\nengine = create_engine(DATABASE_URL, pool_pre_ping=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_pre_ping=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    \"\"\"Dependency for getting database session\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    \"\"\"Dependency for getting database session\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef init_db():",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    \"\"\"Dependency for getting database session\"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef init_db():\n    \"\"\"Initialize database tables\"\"\"",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "class User(Base):\n    \"\"\"User model - stores user info and authentication\"\"\"\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String(100), unique=True, index=True, nullable=False)\n    password_hash = Column(String(255), nullable=False)\n    # Profile\n    display_name = Column(String(100), default=\"\")\n    # Telegram integration\n    telegram_chat_id = Column(String(50), unique=True, nullable=True, index=True)",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "kind": 6,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "class RefreshToken(Base):\n    \"\"\"Stores refresh tokens for JWT authentication\"\"\"\n    __tablename__ = \"refresh_tokens\"\n    id = Column(Integer, primary_key=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    token = Column(String(500), unique=True, index=True, nullable=False)\n    expires_at = Column(DateTime(timezone=True), nullable=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now())\n    # Relationships\n    user = relationship(\"User\", back_populates=\"refresh_tokens\")",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Schedule",
+        "kind": 6,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "class Schedule(Base):\n    \"\"\"Daily schedule - represents one day's plan\"\"\"\n    __tablename__ = \"schedules\"\n    id = Column(Integer, primary_key=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    date = Column(String(10), nullable=False, index=True)  # YYYY-MM-DD format\n    created_at = Column(DateTime(timezone=True), server_default=func.now())\n    updated_at = Column(DateTime(timezone=True), onupdate=func.now())\n    # Relationships\n    user = relationship(\"User\", back_populates=\"schedules\")",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "class Task(Base):\n    \"\"\"Individual task/time block within a schedule\"\"\"\n    __tablename__ = \"tasks\"\n    id = Column(Integer, primary_key=True, index=True)\n    task_uuid = Column(String(36), default=generate_uuid, unique=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    schedule_id = Column(Integer, ForeignKey(\"schedules.id\", ondelete=\"CASCADE\"), nullable=False)\n    # Time block\n    start_time = Column(String(5), nullable=False)  # HH:MM format\n    end_time = Column(String(5), nullable=False)    # HH:MM format",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramLinkCode",
+        "kind": 6,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "class TelegramLinkCode(Base):\n    \"\"\"Temporary codes for linking Telegram accounts\"\"\"\n    __tablename__ = \"telegram_link_codes\"\n    id = Column(Integer, primary_key=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    code = Column(String(6), unique=True, index=True, nullable=False)\n    expires_at = Column(DateTime(timezone=True), nullable=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now())",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "generate_uuid",
+        "kind": 2,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "peekOfCode": "def generate_uuid():\n    return str(uuid.uuid4())\nclass User(Base):\n    \"\"\"User model - stores user info and authentication\"\"\"\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String(100), unique=True, index=True, nullable=False)\n    password_hash = Column(String(255), nullable=False)\n    # Profile\n    display_name = Column(String(100), default=\"\")",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\n        \"sub\": str(user_id),\n        \"exp\": expire,",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode = {\n        \"sub\": str(user_id),\n        \"exp\": expire,\n        \"type\": \"access\"\n    }",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def create_refresh_token(db: Session, user_id: int) -> str:\n    expires_at = datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)\n    to_encode = {\n        \"sub\": str(user_id),\n        \"exp\": expires_at,\n        \"type\": \"refresh\"\n    }\n    token = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    # Store in database\n    db_token = RefreshToken(",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def verify_access_token(token: str) -> Optional[int]:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        if payload.get(\"type\") != \"access\":\n            return None\n        user_id = int(payload.get(\"sub\"))\n        return user_id\n    except jwt.ExpiredSignatureError:\n        return None\n    except jwt.InvalidTokenError:",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_refresh_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def verify_refresh_token(db: Session, token: str) -> Optional[int]:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        if payload.get(\"type\") != \"refresh\":\n            return None\n        user_id = int(payload.get(\"sub\"))\n        # Check if token exists in database\n        db_token = db.query(RefreshToken).filter(\n            RefreshToken.token == token,\n            RefreshToken.user_id == user_id,",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_refresh_token",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def revoke_refresh_token(db: Session, token: str) -> bool:\n    db_token = db.query(RefreshToken).filter(RefreshToken.token == token).first()\n    if db_token:\n        db.delete(db_token)\n        db.commit()\n        return True\n    return False\ndef revoke_all_user_tokens(db: Session, user_id: int) -> None:\n    db.query(RefreshToken).filter(RefreshToken.user_id == user_id).delete()\n    db.commit()",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_all_user_tokens",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def revoke_all_user_tokens(db: Session, user_id: int) -> None:\n    db.query(RefreshToken).filter(RefreshToken.user_id == user_id).delete()\n    db.commit()\ndef authenticate_user(db: Session, username: str, password: str) -> Optional[User]:\n    user = db.query(User).filter(User.username == username).first()\n    if not user:\n        return None\n    if not verify_password(password, user.password_hash):\n        return None\n    return user",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def authenticate_user(db: Session, username: str, password: str) -> Optional[User]:\n    user = db.query(User).filter(User.username == username).first()\n    if not user:\n        return None\n    if not verify_password(password, user.password_hash):\n        return None\n    return user\ndef create_user(db: Session, username: str, password: str) -> User:\n    hashed_password = get_password_hash(password)\n    db_user = User(",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def create_user(db: Session, username: str, password: str) -> User:\n    hashed_password = get_password_hash(password)\n    db_user = User(\n        username=username,\n        password_hash=hashed_password\n    )\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def get_user_by_id(db: Session, user_id: int) -> Optional[User]:\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_telegram_chat_id(db: Session, chat_id: str) -> Optional[User]:\n    return db.query(User).filter(User.telegram_chat_id == chat_id).first()",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_telegram_chat_id",
+        "kind": 2,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "def get_user_by_telegram_chat_id(db: Session, chat_id: str) -> Optional[User]:\n    return db.query(User).filter(User.telegram_chat_id == chat_id).first()",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"your-super-secret-key-change-in-production\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_DAYS = 30\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_DAYS = 30\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_DAYS = 30\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "REFRESH_TOKEN_EXPIRE_DAYS",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "REFRESH_TOKEN_EXPIRE_DAYS = 30\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.services.auth_service",
+        "description": "app.services.auth_service",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef create_access_token(user_id: int, expires_delta: Optional[timedelta] = None) -> str:\n    if expires_delta:\n        expire = datetime.utcnow() + expires_delta\n    else:\n        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)",
+        "detail": "app.services.auth_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_or_create_schedule",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def get_or_create_schedule(db: Session, user_id: int, schedule_date: str) -> Schedule:\n    \"\"\"Get existing schedule or create new one for a date\"\"\"\n    schedule = db.query(Schedule).filter(\n        Schedule.user_id == user_id,\n        Schedule.date == schedule_date\n    ).first()\n    if not schedule:\n        schedule = Schedule(\n            user_id=user_id,\n            date=schedule_date",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "save_schedule",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def save_schedule(db: Session, user_id: int, schedule_data: DailySchedule) -> Schedule:\n    \"\"\"Save or update a daily schedule with tasks\"\"\"\n    # Get or create schedule\n    schedule = get_or_create_schedule(db, user_id, schedule_data.date)\n    # Delete existing tasks for this schedule\n    db.query(Task).filter(Task.schedule_id == schedule.id).delete()\n    # Add new tasks\n    for task_json in schedule_data.tasks:\n        task = Task(\n            task_uuid=task_json.id,",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_schedule_for_date",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def get_schedule_for_date(db: Session, user_id: int, schedule_date: str) -> Optional[DailySchedule]:\n    \"\"\"Get schedule for a specific date\"\"\"\n    schedule = db.query(Schedule).filter(\n        Schedule.user_id == user_id,\n        Schedule.date == schedule_date\n    ).first()\n    if not schedule:\n        return None\n    tasks = db.query(Task).filter(Task.schedule_id == schedule.id).order_by(Task.start_time).all()\n    task_list = [",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_today_schedule",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def get_today_schedule(db: Session, user_id: int) -> Optional[DailySchedule]:\n    \"\"\"Get today's schedule\"\"\"\n    today = date.today().isoformat()\n    return get_schedule_for_date(db, user_id, today)\ndef get_upcoming_tasks(db: Session, user_id: int, minutes_ahead: int = 15) -> List[Task]:\n    \"\"\"Get tasks starting within the next N minutes\"\"\"\n    user = db.query(User).filter(User.id == user_id).first()\n    if not user:\n        return []\n    try:",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_upcoming_tasks",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def get_upcoming_tasks(db: Session, user_id: int, minutes_ahead: int = 15) -> List[Task]:\n    \"\"\"Get tasks starting within the next N minutes\"\"\"\n    user = db.query(User).filter(User.id == user_id).first()\n    if not user:\n        return []\n    try:\n        tz = pytz.timezone(user.timezone or \"Asia/Kolkata\")\n    except:\n        tz = pytz.timezone(\"Asia/Kolkata\")\n    now = datetime.now(tz)",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_tasks_for_notification",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def get_tasks_for_notification(db: Session) -> dict:\n    \"\"\"Get all tasks that need notifications across all users\"\"\"\n    result = {\n        \"remind_before\": [],  # 10 min before start\n        \"remind_on_start\": [],  # At start time\n        \"nudge_during\": [],  # Middle of task\n        \"congratulate\": []  # At end time\n    }\n    users = db.query(User).filter(User.telegram_chat_id.isnot(None)).all()\n    for user in users:",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "mark_task_completed",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def mark_task_completed(db: Session, user_id: int, task_uuid: str) -> bool:\n    \"\"\"Mark a task as completed\"\"\"\n    task = db.query(Task).filter(\n        Task.user_id == user_id,\n        Task.task_uuid == task_uuid\n    ).first()\n    if task:\n        task.is_completed = True\n        task.completed_at = datetime.utcnow()\n        db.commit()",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "update_notification_flags",
+        "kind": 2,
+        "importPath": "app.services.schedule_service",
+        "description": "app.services.schedule_service",
+        "peekOfCode": "def update_notification_flags(db: Session, task_id: int, flag_name: str) -> None:\n    \"\"\"Update notification tracking flags\"\"\"\n    task = db.query(Task).filter(Task.id == task_id).first()\n    if task:\n        setattr(task, flag_name, True)\n        db.commit()",
+        "detail": "app.services.schedule_service",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\nimport app.db.config_db as config_db\nfrom app.router.notification_router import router as notification_router\nfrom app.services.notification_worker import start_worker, stop_worker\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # initialize DB\n    config_db.init_db()\n    # start background reminder worker\n    # start_worker creates an asyncio.Task; it must be called inside the running event loop",
+        "peekOfCode": "def root():\n    \"\"\"Root endpoint\"\"\"\n    return {\n        \"name\": \"Second Thought Backend\",\n        \"description\": \"Second Thought Backend API\",\n        \"version\": \"1.0.0\",\n        \"status\": \"running\"\n    }\n@app.get(\"/health\")\ndef health_check():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def health_check():\n    \"\"\"Health check endpoint for k8s\"\"\"\n    return {\"status\": \"healthy\"}\n@app.get(\"/ready\")\ndef readiness_check():\n    \"\"\"Readiness check endpoint for k8s\"\"\"\n    return {\"status\": \"ready\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    port = int(os.getenv(\"PORT\", \"8000\"))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "readiness_check",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def readiness_check():\n    \"\"\"Readiness check endpoint for k8s\"\"\"\n    return {\"status\": \"ready\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    port = int(os.getenv(\"PORT\", \"8000\"))\n    uvicorn.run(\"main:app\", host=\"0.0.0.0\", port=port, reload=True)",
         "detail": "main",
         "documentation": {}
     },
@@ -1180,35 +1688,8 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI(lifespan=lifespan)\n# CORS - allow your frontend (adjust origins)\napp.add_middleware(CORSMiddleware,\n                   allow_origins=[\"http://localhost:3000\", \"http://127.0.0.1:3000\", \"http://your-nas-ip:port\"],\n                   allow_credentials=True, allow_methods=[\"*\"], allow_headers=[\"*\"], )\n# Mount routers under /api so frontend's API_BASE_URL + paths match\napp.include_router(notification_router, prefix=\"/api\")\n# basic healthcheck\n@app.get(\"/health\")\nasync def health_check():",
+        "peekOfCode": "app = FastAPI(\n    title=\"Second Thought Backend\",\n    description=\"Backend API for Second Thought timetable app with Telegram notifications\",\n    version=\"1.0.0\",\n    lifespan=lifespan\n)\n# CORS middleware\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Configure this for production",
         "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "test_one_time_reminder",
-        "kind": 2,
-        "importPath": "test_time_utils",
-        "description": "test_time_utils",
-        "peekOfCode": "def test_one_time_reminder():\n    # One-time reminder in 30 minutes\n    interval, next_time = calculate_next_trigger(30, 1, is_recurring=False)\n    assert interval is None, \"One-time reminder should have no interval\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"\ndef test_recurring_reminder():\n    # Recurring reminder every 2 hours\n    interval, next_time = calculate_next_trigger(2, 60, is_recurring=True)\n    assert interval == 120, \"Should be 120 minutes (2 hours)\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"",
-        "detail": "test_time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "test_recurring_reminder",
-        "kind": 2,
-        "importPath": "test_time_utils",
-        "description": "test_time_utils",
-        "peekOfCode": "def test_recurring_reminder():\n    # Recurring reminder every 2 hours\n    interval, next_time = calculate_next_trigger(2, 60, is_recurring=True)\n    assert interval == 120, \"Should be 120 minutes (2 hours)\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"\ndef test_parse_units():\n    # Test various unit inputs\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")",
-        "detail": "test_time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "test_parse_units",
-        "kind": 2,
-        "importPath": "test_time_utils",
-        "description": "test_time_utils",
-        "peekOfCode": "def test_parse_units():\n    # Test various unit inputs\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")\n    assert parse_time_unit(\"invalid\") == (None, None)\nif __name__ == \"__main__\":\n    print(\"Running time utility tests...\")\n    print(\"1. Testing one-time reminder...\")\n    test_one_time_reminder()",
-        "detail": "test_time_utils",
         "documentation": {}
     }
 ]

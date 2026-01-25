@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: second-thought-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: second-thought-backend
+  template:
+    metadata:
+      labels:
+        app: second-thought-backend
+    spec:
+      containers:
+        - name: app
+          image: ghcr.io/krishnarajt/second-thought-backend:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+              name: http
+
+          envFrom:
+            - secretRef:
+                name: second-thought-backend-env
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"

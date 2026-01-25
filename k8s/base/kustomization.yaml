@@ -1,0 +1,7 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+  - externalsecret.yaml
+  - postgres.yaml
+  - externalsecret-postgres.yaml
+  - ingress.yaml
