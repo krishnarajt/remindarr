@@ -1,43 +1,45 @@
+version: '3.8'
+
 services:
-  remindarr:
-    restart: unless-stopped
+  second-thought-backend:
     build: .
+    container_name: second-thought-backend
     ports:
-      - "${API_PORT}:${API_PORT}"
-    env_file:
-      - .env
-    volumes:
-      - .:/app
-    depends_on:
-      - remindarr_db
-    command: uvicorn main:app --host ${API_HOST} --port ${API_PORT} --reload
-    develop:
-      watch:
-        - action: sync
-          path: .
-          target: /app
-          ignore:
-            - __pycache__
-            - "*.pyc"
-        - action: rebuild
-          path: requirements.txt
-        - action: rebuild
-          path: Dockerfile
-  remindarr_db:
-    image: postgres:16
-    container_name: remindarr_postgres
-    restart: unless-stopped
+      - "8000:8000"
     environment:
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      POSTGRES_DB: ${DB_NAME}
-    ports:
-      - "${DB_PORT_EXTERNAL}:${DB_PORT}"
+      - DATABASE_URL=postgresql://second_thought:second_thought@postgres:5432/second_thought
+      - SECRET_KEY=${SECRET_KEY:-your-super-secret-key-change-me}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - second-thought-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: second-thought-postgres
+    environment:
+      - POSTGRES_USER=second_thought
+      - POSTGRES_PASSWORD=second_thought
+      - POSTGRES_DB=second_thought
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d remindarr"]
-      interval: 10s
-      retries: 5
-      start_period: 15s
+      test: ["CMD-SHELL", "pg_isready -U second_thought -d second_thought"]
+      interval: 5s
       timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - second-thought-network
+
+volumes:
+  postgres_data:
+
+networks:
+  second-thought-network:
+    driver: bridge

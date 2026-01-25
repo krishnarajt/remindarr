@@ -1,148 +1,129 @@
-import uuid
+from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Text, UniqueConstraint
+from sqlalchemy.orm import relationship
+from sqlalchemy.sql import func
 from datetime import datetime
-from typing import Optional, List, Dict, Any
+import uuid
 
-from sqlalchemy import Column, DateTime, func, JSON, String
-from sqlmodel import SQLModel, Field
-from sqlalchemy import Text
-from app.constants.constants import Settings
+from app.db.database import Base
 
 
-class Base(SQLModel):
-    __table_args__ = {"schema": Settings().db_schema}
+def generate_uuid():
+    return str(uuid.uuid4())
 
 
-class Users(Base, table=True):
-    """Store user information and integration settings."""
-
+class User(Base):
+    """User model - stores user info and authentication"""
     __tablename__ = "users"
-
-    # Telegram Info (from message.from and message.chat)
-    chat_id: str = Field(primary_key=True, description="Telegram chat/user ID")
-    username: Optional[str] = Field(default=None, description="Telegram username")
-    first_name: Optional[str] = Field(
-        default=None, description="User's first name from Telegram"
-    )
-    language_code: Optional[str] = Field(
-        default=None, description="User's language preference"
-    )
-    is_bot: bool = Field(default=False, description="Whether the user is a bot")
-
-    # Notion Integration
-    notion_api_key: Optional[str] = Field(
-        default=None, description="Notion API integration token"
-    )
-    notion_workspace_name: Optional[str] = Field(
-        default=None, description="Name of the Notion workspace"
-    )
-    notion_enabled: bool = Field(
-        default=False, description="Whether Notion integration is enabled"
-    )
-
-    # Store list of notion database ids the user wants to monitor
-    # Stored as JSON array of strings
-    notion_db_pages: Optional[List[str]] = Field(
-        default=None,
-        sa_column=Column(JSON, nullable=True),
-        description="List of Notion database IDs/URLs",
-    )
-
-    # Store mappings per database: list of objects {"db_id": str, "name_prop": str, "time_prop": str}
-    notion_db_mappings: Optional[List[Dict[str, Any]]] = Field(
-        default=None,
-        sa_column=Column(JSON, nullable=True),
-        description="Saved property mappings for each Notion DB",
-    )
-
-    # How often to check notion pages (hours). Allowed values: 12 or 24. Default 12
-    notion_check_frequence: int = Field(
-        default=12, description="Notion refresh frequency in hours"
-    )
-
-    # User Preferences & State
-    timezone: Optional[str] = Field(
-        default="UTC", description="User's timezone for scheduling"
-    )
-    notifications_enabled: bool = Field(
-        default=True, description="Whether notifications are enabled"
-    )
-
+    
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String(100), unique=True, index=True, nullable=False)
+    password_hash = Column(String(255), nullable=False)
+    
+    # Profile
+    display_name = Column(String(100), default="")
+    
+    # Telegram integration
+    telegram_chat_id = Column(String(50), unique=True, nullable=True, index=True)
+    telegram_username = Column(String(100), nullable=True)
+    
+    # Settings - notification preferences
+    remind_before_activity = Column(Boolean, default=True)
+    remind_on_start = Column(Boolean, default=True)
+    nudge_during_activity = Column(Boolean, default=True)
+    congratulate_on_finish = Column(Boolean, default=True)
+    default_slot_duration = Column(Integer, default=60)  # minutes
+    
+    # Timezone
+    timezone = Column(String(50), default="Asia/Kolkata")
+    
     # Timestamps
-    created_at: datetime = Field(
-        sa_column=Column(
-            DateTime(timezone=True), server_default=func.now(), nullable=False
-        )
-    )
-    updated_at: datetime = Field(
-        sa_column=Column(
-            DateTime(timezone=True),
-            server_default=func.now(),
-            onupdate=func.now(),
-            nullable=False,
-        )
-    )
-    last_active_at: datetime = Field(
-        sa_column=Column(
-            DateTime(timezone=True), server_default=func.now(), nullable=False
-        )
-    )
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    schedules = relationship("Schedule", back_populates="user", cascade="all, delete-orphan")
+    tasks = relationship("Task", back_populates="user", cascade="all, delete-orphan")
+    refresh_tokens = relationship("RefreshToken", back_populates="user", cascade="all, delete-orphan")
 
 
-class Reminders(Base, table=True):
-    __tablename__ = "reminders"
+class RefreshToken(Base):
+    """Stores refresh tokens for JWT authentication"""
+    __tablename__ = "refresh_tokens"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    token = Column(String(500), unique=True, index=True, nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="refresh_tokens")
 
-    id: str = Field(
-        default_factory=lambda: str(uuid.uuid4()), primary_key=True, index=True
-    )
 
-    created_at: Optional[datetime] = Field(
-        sa_column=Column(
-            DateTime(timezone=True), server_default=func.now(), nullable=False
-        )
-    )
-
-    updated_at: Optional[datetime] = Field(
-        sa_column=Column(
-            DateTime(timezone=True),
-            server_default=func.now(),
-            onupdate=func.now(),
-            nullable=False,
-        )
-    )
-
-    active: bool = Field(default=True, nullable=False)
-
-    reminder_name: str = Field(sa_column=Column(Text))
-    reminder_content: str = Field(nullable=False)
-
-    # Source of the reminder: 'user' (manually created) or 'notion' (imported from Notion)
-    source: str = Field(
-        default="user", description="Source of the reminder: user or notion"
+class Schedule(Base):
+    """Daily schedule - represents one day's plan"""
+    __tablename__ = "schedules"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    
+    date = Column(String(10), nullable=False, index=True)  # YYYY-MM-DD format
+    
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="schedules")
+    tasks = relationship("Task", back_populates="schedule", cascade="all, delete-orphan")
+    
+    # Unique constraint: one schedule per user per day
+    __table_args__ = (
+        UniqueConstraint('user_id', 'date', name='unique_user_date'),
     )
 
-    # Notion page/database id (optional)
-    notion_page_id: Optional[str] = Field(
-        default=None,
-        description="Notion page or database id that created this reminder",
-    )
 
-    # Repeat interval (in minutes). None means one-time reminder.
-    # default to None (one-time) to avoid accidental recurring behavior
-    interval_minutes: Optional[int] = Field(
-        default=None, nullable=True, description="Repeat interval in minutes"
-    )
+class Task(Base):
+    """Individual task/time block within a schedule"""
+    __tablename__ = "tasks"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    task_uuid = Column(String(36), default=generate_uuid, unique=True, index=True)
+    
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    schedule_id = Column(Integer, ForeignKey("schedules.id", ondelete="CASCADE"), nullable=False)
+    
+    # Time block
+    start_time = Column(String(5), nullable=False)  # HH:MM format
+    end_time = Column(String(5), nullable=False)    # HH:MM format
+    
+    # Task details
+    task_description = Column(Text, nullable=False)
+    
+    # Status tracking
+    is_completed = Column(Boolean, default=False)
+    completed_at = Column(DateTime(timezone=True), nullable=True)
+    
+    # Notification tracking
+    reminded_before = Column(Boolean, default=False)
+    reminded_on_start = Column(Boolean, default=False)
+    nudged_during = Column(Boolean, default=False)
+    congratulated = Column(Boolean, default=False)
+    
+    # Timestamps
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="tasks")
+    schedule = relationship("Schedule", back_populates="tasks")
 
-    # Next time this reminder should trigger
-    next_trigger_at: Optional[datetime] = Field(
-        default=None, description="Next reminder trigger time"
-    )
 
-    # Last time this reminder was triggered
-    last_triggered_at: Optional[datetime] = Field(
-        default=None, description="Last reminder trigger time"
-    )
-
-    # Chat id where the reminder should be sent. Optional to preserve existing rows.
-    chat_id: Optional[str] = Field(
-        default=None, description="Telegram chat id to send the reminder to"
-    )
+class TelegramLinkCode(Base):
+    """Temporary codes for linking Telegram accounts"""
+    __tablename__ = "telegram_link_codes"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    code = Column(String(6), unique=True, index=True, nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
