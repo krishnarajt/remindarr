@@ -76,6 +76,32 @@ def test_parse_clarification(monkeypatch):
     assert "When" in res.clarification
 
 
+def test_parse_does_not_send_provider_specific_response_format(monkeypatch):
+    from app.services import nl_parser
+
+    payload = {
+        "ok": True,
+        "summary": "Every day at 9:00 (UTC)",
+        "spec": {"kind": "recurring", "timezone": "UTC", "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0"},
+    }
+    calls = []
+
+    def fake_chat(*args, **kwargs):
+        calls.append(kwargs)
+        return json.dumps(payload)
+
+    monkeypatch.setattr(nl_parser.gateway, "api_key", "test-key")
+    monkeypatch.setattr(nl_parser.gateway, "chat", fake_chat)
+
+    res = nl_parser.parse_reminder(
+        "every day at 9am", now_local=datetime.now(ZoneInfo("UTC")), user_tz="UTC"
+    )
+
+    assert res.ok
+    assert calls
+    assert "extra" not in calls[0]
+
+
 def test_parse_invalid_json_then_gives_up(monkeypatch):
     from app.services import nl_parser
 

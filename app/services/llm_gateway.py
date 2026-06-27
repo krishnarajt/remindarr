@@ -7,7 +7,7 @@ Contract (see the LLMGateway service):
     resp: {content, model, provider, usage, thinking}
 
 The generated text is returned as a string in ``content`` — structured output is
-requested via ``config.extra.response_format`` and parsed by the caller.
+parsed and validated by the caller.
 """
 
 from __future__ import annotations

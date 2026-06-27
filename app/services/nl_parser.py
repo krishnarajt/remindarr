@@ -127,8 +127,6 @@ def parse_reminder(text: str, *, now_local: datetime, user_tz: str) -> ParseResu
         )
 
     user_prompt = _build_user_prompt(text, now_local, user_tz)
-    extra = {"response_format": {"type": "json_object"}}
-
     last_err: Optional[str] = None
     for attempt in range(2):
         try:
@@ -143,7 +141,6 @@ def parse_reminder(text: str, *, now_local: datetime, user_tz: str) -> ParseResu
                 system_prompt=_SYSTEM_PROMPT,
                 temperature=0,
                 max_output_tokens=800,
-                extra=extra,
             )
             result = _try_parse(raw)
             if result.ok and result.spec is not None:
