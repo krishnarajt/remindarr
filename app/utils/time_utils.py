@@ -1,98 +1,83 @@
-"""Time utilities: parsing units, timezone helpers, and scheduling helpers.
+"""Time helpers: unit parsing, timezone conversion, and display formatting.
 
-This module combines time parsing and timezone helpers used across the app.
+Scheduling math (RRULE + windows) lives in :mod:`app.utils.scheduling`.
 """
-from datetime import datetime, timedelta, timezone
-from typing import Tuple, Optional
 
-try:
-    # Preferred: use stdlib zoneinfo
-    from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
-except Exception:
-    ZoneInfo = None
-    ZoneInfoNotFoundError = Exception
+from __future__ import annotations
+
+from datetime import datetime, timedelta, timezone
+from typing import Optional, Tuple
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+
+from app.common.schemas import ScheduleSpec
 
 
 def parse_time_unit(unit_text: str) -> Tuple[Optional[int], Optional[str]]:
-    """Convert user input time unit to multiplier and normalized unit name.
-
-    Returns (multiplier_in_minutes, normalized_unit_name) or (None, None) if
-    the unit isn't recognized.
-    """
+    """Map a unit word to (minutes_per_unit, normalized_name), or (None, None)."""
     unit = unit_text.strip().lower()
-
     if unit in ("m", "min", "mins", "minute", "minutes"):
         return 1, "minutes"
-    elif unit in ("h", "hr", "hrs", "hour", "hours"):
+    if unit in ("h", "hr", "hrs", "hour", "hours"):
         return 60, "hours"
-    elif unit in ("d", "day", "days"):
+    if unit in ("d", "day", "days"):
         return 60 * 24, "days"
-
     return None, None
 
 
-def get_user_timezone(tz_name: Optional[str]):
-    """Return a timezone object (ZoneInfo) or UTC on error/None."""
+def get_user_timezone(tz_name: Optional[str]) -> ZoneInfo:
+    """Return a ZoneInfo for ``tz_name``, falling back to UTC."""
     if not tz_name:
-        return ZoneInfo("UTC") if ZoneInfo else timezone.utc
-
+        return ZoneInfo("UTC")
     try:
-        return ZoneInfo(tz_name) if ZoneInfo else timezone.utc
-    except ZoneInfoNotFoundError:
-        return ZoneInfo("UTC") if ZoneInfo else timezone.utc
+        return ZoneInfo(tz_name)
+    except (ZoneInfoNotFoundError, ValueError, KeyError):
+        return ZoneInfo("UTC")
 
 
-def get_time_in_timezone(dt: datetime, tz_name: Optional[str]) -> datetime:
-    """Convert a naive or UTC datetime to the user's timezone.
-
-    The returned datetime will have tzinfo set to the user's tz.
-    """
-    if dt.tzinfo is None:
-        # assume naive datetimes are UTC
-        dt = dt.replace(tzinfo=timezone.utc)
-
-    user_tz = get_user_timezone(tz_name)
-    return dt.astimezone(user_tz)
-
-
-def now_in_timezone(tz_name: Optional[str]) -> Tuple[datetime, datetime]:
-    """Return (utc_now, local_now) where local_now is utc_now in user's tz."""
-    utc_now = datetime.now(timezone.utc)
-    user_tz = get_user_timezone(tz_name)
-    local_now = utc_now.astimezone(user_tz)
-    return utc_now, local_now
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
 
 
 def format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:
-    """Format datetime in user's timezone for display."""
-    local_dt = get_time_in_timezone(dt, tz_name)
-    tz_abbr = local_dt.tzname() or "UTC"
-    return f"{local_dt.strftime('%Y-%m-%d %H:%M')} {tz_abbr}"
+    """Format a datetime in the user's timezone for display."""
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    local = dt.astimezone(get_user_timezone(tz_name))
+    return f"{local.strftime('%Y-%m-%d %H:%M')} {local.tzname() or 'UTC'}"
 
 
-def calculate_next_trigger(
+def build_interval_spec(
     amount: int,
     multiplier: int,
     is_recurring: bool,
-    timezone: Optional[str] = None,
-) -> Tuple[Optional[int], datetime]:
-    """Calculate interval_minutes and next_trigger_at in UTC.
+    tz_name: str = "UTC",
+) -> ScheduleSpec:
+    """Build a ScheduleSpec for the guided /add flow.
 
-    - amount: numeric amount in the chosen unit
-    - multiplier: minutes per unit (e.g. 60 for hours)
-    - is_recurring: whether the reminder should repeat
-    - timezone: optional user timezone (currently used only to determine "now")
-
-    Returns (interval_minutes_or_None, next_trigger_at_utc)
+    A one-time reminder ``amount * multiplier`` minutes from now, or a recurring
+    one on that interval. ``multiplier`` is minutes-per-unit (see
+    :func:`parse_time_unit`).
     """
-    if amount <= 0:
-        raise ValueError("Amount must be positive")
-    if multiplier <= 0:
-        raise ValueError("Multiplier must be positive")
+    if amount <= 0 or multiplier <= 0:
+        raise ValueError("amount and multiplier must be positive")
 
     total_minutes = amount * multiplier
-    utc_now, _ = now_in_timezone(timezone)
-    next_trigger_at = utc_now + timedelta(minutes=total_minutes)
+    tz = get_user_timezone(tz_name)
+    fire_local = (
+        (datetime.now(tz) + timedelta(minutes=total_minutes))
+        .replace(tzinfo=None, second=0, microsecond=0)
+    )
 
-    interval_minutes = total_minutes if is_recurring else None
-    return interval_minutes, next_trigger_at
+    if not is_recurring:
+        return ScheduleSpec(kind="one_time", timezone=tz_name, at=fire_local)
+
+    # Recurring: express the interval as an RRULE so the engine handles it.
+    if total_minutes % (60 * 24) == 0:
+        rrule = f"FREQ=DAILY;INTERVAL={total_minutes // (60 * 24)}"
+    elif total_minutes % 60 == 0:
+        rrule = f"FREQ=HOURLY;INTERVAL={total_minutes // 60}"
+    else:
+        rrule = f"FREQ=MINUTELY;INTERVAL={total_minutes}"
+    return ScheduleSpec(
+        kind="recurring", timezone=tz_name, rrule=rrule, dtstart=fire_local
+    )

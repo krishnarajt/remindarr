@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.env
+.env.*
+!.env.example
+postgres_data
+.idea
+.vscode
+*.md
+k8s
+.github
+uv.lock

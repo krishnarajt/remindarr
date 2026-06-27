@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: remindarr
+spec:
+  # Single replica: conversational state is in-process (see app/api/state.py).
+  replicas: 1
+  selector:
+    matchLabels:
+      app: remindarr
+  template:
+    metadata:
+      labels:
+        app: remindarr
+    spec:
+      containers:
+        - name: app
+          image: ghcr.io/krishnarajt/remindarr:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+              name: http
+
+          envFrom:
+            - secretRef:
+                name: remindarr-env
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"

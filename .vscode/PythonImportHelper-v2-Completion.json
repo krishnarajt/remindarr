@@ -17,6 +17,110 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -44,111 +148,95 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "BaseSettings",
-        "importPath": "pydantic_settings",
-        "description": "pydantic_settings",
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pydantic_settings",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "SettingsConfigDict",
-        "importPath": "pydantic_settings",
-        "description": "pydantic_settings",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pydantic_settings",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "func",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "JSON",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "SQLModel",
+        "label": "Session",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -156,7 +244,7 @@
         "documentation": {}
     },
     {
-        "label": "create_engine",
+        "label": "Session",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -180,6 +268,14 @@
         "documentation": {}
     },
     {
+        "label": "create_engine",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
         "label": "Field",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
@@ -188,7 +284,7 @@
         "documentation": {}
     },
     {
-        "label": "select",
+        "label": "SQLModel",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -204,52 +300,677 @@
         "documentation": {}
     },
     {
-        "label": "Settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
         "isExtraImport": true,
-        "detail": "app.constants.constants",
+        "detail": "sqlmodel",
         "documentation": {}
     },
     {
-        "label": "Settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
         "isExtraImport": true,
-        "detail": "app.constants.constants",
+        "detail": "sqlmodel",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
         "isExtraImport": true,
-        "detail": "app.constants.constants",
+        "detail": "sqlmodel",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.constants.constants",
-        "description": "app.constants.constants",
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
         "isExtraImport": true,
-        "detail": "app.constants.constants",
+        "detail": "sqlmodel",
         "documentation": {}
     },
     {
-        "label": "uuid",
+        "label": "Session",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsPayload",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ParseResult",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TimeWindow",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TimeWindow",
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "isExtraImport": true,
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "app.db.config_db",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
+        "importPath": "app.db.config_db",
+        "description": "app.db.config_db",
+        "detail": "app.db.config_db",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "app.db.config_db",
+        "description": "app.db.config_db",
+        "isExtraImport": true,
+        "detail": "app.db.config_db",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "app.db.config_db",
+        "description": "app.db.config_db",
+        "isExtraImport": true,
+        "detail": "app.db.config_db",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reminders",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reminders",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reminders",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reminders",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "notion_sync",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "notion",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "notion_sync",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "reminder_service",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "reminder_service",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "notion",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logging_utils",
+        "description": "app.utils.logging_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
         "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
         "importPath": "datetime",
         "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
         "detail": "datetime",
         "documentation": {}
     },
@@ -287,6 +1008,14 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -334,139 +1063,155 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "time",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "time",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ZoneInfoNotFoundError",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "zoneinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
+        "isExtraImport": true,
+        "detail": "zoneinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
+        "isExtraImport": true,
+        "detail": "zoneinfo",
         "documentation": {}
     },
     {
@@ -478,28 +1223,492 @@
         "documentation": {}
     },
     {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "FlowType",
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "isExtraImport": true,
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "UserState",
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "isExtraImport": true,
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "clear_state",
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "isExtraImport": true,
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "get_state",
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "isExtraImport": true,
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "isExtraImport": true,
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "isExtraImport": true,
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "isExtraImport": true,
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "isExtraImport": true,
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "isExtraImport": true,
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "config_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "config_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "config_db",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "parse_reminder",
+        "importPath": "app.services.nl_parser",
+        "description": "app.services.nl_parser",
+        "isExtraImport": true,
+        "detail": "app.services.nl_parser",
+        "documentation": {}
+    },
+    {
+        "label": "answer_callback_query",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "edit_message_text",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "esc",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "menu_keyboard",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "send_message",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "send_message",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "esc",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "send_message",
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "isExtraImport": true,
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "build_interval_spec",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_datetime_for_user",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "now_utc",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_time_unit",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_time_unit",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_next_trigger",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "now_utc",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_datetime_for_user",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "now_utc",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "now_utc",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "now_utc",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "build_interval_spec",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_time_unit",
+        "importPath": "app.utils.time_utils",
+        "description": "app.utils.time_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "JSONB",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
-        "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -521,150 +1730,125 @@
         "documentation": {}
     },
     {
-        "label": "app.db.config_db",
+        "label": "settings",
+        "importPath": "app.constants.constants",
+        "description": "app.constants.constants",
+        "isExtraImport": true,
+        "detail": "app.constants.constants",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "detail": "app.db.config_db",
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
         "documentation": {}
     },
     {
-        "label": "get_session",
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
+        "label": "LLMGatewayError",
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
         "isExtraImport": true,
-        "detail": "app.db.config_db",
+        "detail": "app.services.llm_gateway",
         "documentation": {}
     },
     {
-        "label": "Reminders",
-        "importPath": "app.db.models",
-        "description": "app.db.models",
+        "label": "gateway",
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
         "isExtraImport": true,
-        "detail": "app.db.models",
+        "detail": "app.services.llm_gateway",
         "documentation": {}
     },
     {
-        "label": "Users",
-        "importPath": "app.db.models",
-        "description": "app.db.models",
+        "label": "compute_next_trigger",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.db.models",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "Reminders",
-        "importPath": "app.db.models",
-        "description": "app.db.models",
+        "label": "describe_spec",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.db.models",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "Users",
-        "importPath": "app.db.models",
-        "description": "app.db.models",
+        "label": "advance_past_backlog",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.db.models",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "send_message",
-        "importPath": "app.services.telegram",
-        "description": "app.services.telegram",
+        "label": "compute_next_trigger",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.services.telegram",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "send_message",
-        "importPath": "app.services.telegram",
-        "description": "app.services.telegram",
+        "label": "compute_next_trigger",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.services.telegram",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "logger",
-        "importPath": "app.utils.logging_utils",
-        "description": "app.utils.logging_utils",
+        "label": "advance_past_backlog",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.utils.logging_utils",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "logger",
-        "importPath": "app.utils.logging_utils",
-        "description": "app.utils.logging_utils",
+        "label": "compute_next_trigger",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.utils.logging_utils",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "parse_time_unit",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "in_window",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "calculate_next_trigger",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "passes_windows",
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.utils.scheduling",
         "documentation": {}
     },
     {
-        "label": "format_datetime_for_user",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
+        "label": "create_from_spec",
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
         "isExtraImport": true,
-        "detail": "app.utils.time_utils",
+        "detail": "app.services.reminder_service",
         "documentation": {}
     },
     {
-        "label": "calculate_next_trigger",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "isExtraImport": true,
-        "detail": "app.utils.time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "parse_time_unit",
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "isExtraImport": true,
-        "detail": "app.utils.time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
+        "label": "html",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "pytz",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pytz",
-        "description": "pytz",
-        "detail": "pytz",
-        "documentation": {}
-    },
-    {
-        "label": "config_db",
-        "importPath": "app.db",
-        "description": "app.db",
-        "isExtraImport": true,
-        "detail": "app.db",
+        "importPath": "html",
+        "description": "html",
+        "detail": "html",
         "documentation": {}
     },
     {
@@ -674,6 +1858,14 @@
         "importPath": "logging",
         "description": "logging",
         "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "rrulestr",
+        "importPath": "dateutil.rrule",
+        "description": "dateutil.rrule",
+        "isExtraImport": true,
+        "detail": "dateutil.rrule",
         "documentation": {}
     },
     {
@@ -694,10 +1886,18 @@
     },
     {
         "label": "router",
-        "importPath": "app.router.notification_router",
-        "description": "app.router.notification_router",
+        "importPath": "app.api.settings_routes",
+        "description": "app.api.settings_routes",
         "isExtraImport": true,
-        "detail": "app.router.notification_router",
+        "detail": "app.api.settings_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "isExtraImport": true,
+        "detail": "app.api.telegram_webhook",
         "documentation": {}
     },
     {
@@ -714,6 +1914,22 @@
         "description": "app.services.notification_worker",
         "isExtraImport": true,
         "detail": "app.services.notification_worker",
+        "documentation": {}
+    },
+    {
+        "label": "start_notion_sync",
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "isExtraImport": true,
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "stop_notion_sync",
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "isExtraImport": true,
+        "detail": "app.services.notion_sync",
         "documentation": {}
     },
     {
@@ -798,6 +2014,474 @@
         "documentation": {}
     },
     {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app.api.settings_routes",
+        "description": "app.api.settings_routes",
+        "peekOfCode": "def get_settings(chat_id: str, db: Session = Depends(get_session)):\n    user = db.get(Users, str(chat_id))\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return {\n        \"chat_id\": user.chat_id,\n        \"username\": user.username,\n        \"first_name\": user.first_name,\n        \"timezone\": user.timezone,\n        \"notion_enabled\": bool(user.notion_enabled),",
+        "detail": "app.api.settings_routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_settings",
+        "kind": 2,
+        "importPath": "app.api.settings_routes",
+        "description": "app.api.settings_routes",
+        "peekOfCode": "def update_settings(payload: SettingsPayload, db: Session = Depends(get_session)):\n    user = db.get(Users, str(payload.chat_id))\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    if payload.notion_enabled is not None:\n        user.notion_enabled = bool(payload.notion_enabled)\n    if payload.notion_check_frequency is not None:\n        if payload.notion_check_frequency not in (12, 24):\n            raise HTTPException(status_code=400, detail=\"frequency must be 12 or 24\")\n        user.notion_check_frequency = int(payload.notion_check_frequency)",
+        "detail": "app.api.settings_routes",
+        "documentation": {}
+    },
+    {
+        "label": "reset_notion",
+        "kind": 2,
+        "importPath": "app.api.settings_routes",
+        "description": "app.api.settings_routes",
+        "peekOfCode": "def reset_notion(chat_id: str, db: Session = Depends(get_session)):\n    user = db.get(Users, str(chat_id))\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    deleted = notion_sync.delete_all_notion_reminders(db, str(chat_id))\n    user.notion_api_key = None\n    user.notion_enabled = False\n    user.notion_db_pages = []\n    user.notion_db_mappings = []\n    db.add(user)",
+        "detail": "app.api.settings_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.settings_routes",
+        "description": "app.api.settings_routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/notifications\", tags=[\"settings\"])\n@router.get(\"/settings/{chat_id}\")\ndef get_settings(chat_id: str, db: Session = Depends(get_session)):\n    user = db.get(Users, str(chat_id))\n    if not user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return {\n        \"chat_id\": user.chat_id,\n        \"username\": user.username,\n        \"first_name\": user.first_name,",
+        "detail": "app.api.settings_routes",
+        "documentation": {}
+    },
+    {
+        "label": "FlowType",
+        "kind": 6,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "class FlowType(str, Enum):\n    NONE = \"none\"\n    ADD = \"add\"          # guided /add flow\n    NOTION = \"notion\"    # Notion setup flow\n    CONFIRM = \"confirm\"  # pending natural-language reminder awaiting confirm\n# Guided-add step markers.\nADD_NAME = \"name\"\nADD_TYPE = \"type\"        # waiting on a button\nADD_UNIT = \"unit\"        # waiting on a button\nADD_AMOUNT = \"amount\"",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "UserState",
+        "kind": 6,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "class UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}\n    def set(self, flow: FlowType, step: str = \"\") -> None:\n        self.flow = flow\n        self.step = step\n        self.data = {}\n    def reset(self) -> None:",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "get_state",
+        "kind": 2,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "def get_state(chat_id) -> UserState:\n    key = str(chat_id)\n    if key not in _states:\n        _states[key] = UserState()\n    return _states[key]\ndef clear_state(chat_id) -> None:\n    _states.pop(str(chat_id), None)",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "clear_state",
+        "kind": 2,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "def clear_state(chat_id) -> None:\n    _states.pop(str(chat_id), None)",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_NAME",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "ADD_NAME = \"name\"\nADD_TYPE = \"type\"        # waiting on a button\nADD_UNIT = \"unit\"        # waiting on a button\nADD_AMOUNT = \"amount\"\nADD_CONTENT = \"content\"\n# Notion step markers.\nN_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_TYPE",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "ADD_TYPE = \"type\"        # waiting on a button\nADD_UNIT = \"unit\"        # waiting on a button\nADD_AMOUNT = \"amount\"\nADD_CONTENT = \"content\"\n# Notion step markers.\nN_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_UNIT",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "ADD_UNIT = \"unit\"        # waiting on a button\nADD_AMOUNT = \"amount\"\nADD_CONTENT = \"content\"\n# Notion step markers.\nN_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_AMOUNT",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "ADD_AMOUNT = \"amount\"\nADD_CONTENT = \"content\"\n# Notion step markers.\nN_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_CONTENT",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "ADD_CONTENT = \"content\"\n# Notion step markers.\nN_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_TOKEN",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_TOKEN = \"token\"\nN_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_DB_ID",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_DB_ID = \"db_id\"\nN_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_NAME_PROP",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_NAME_PROP = \"name_prop\"\nN_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}\n    def set(self, flow: FlowType, step: str = \"\") -> None:",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_TIME_PROP",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_TIME_PROP = \"time_prop\"\nN_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}\n    def set(self, flow: FlowType, step: str = \"\") -> None:\n        self.flow = flow",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_STATUS_PROP",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_STATUS_PROP = \"status_prop\"\nN_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}\n    def set(self, flow: FlowType, step: str = \"\") -> None:\n        self.flow = flow\n        self.step = step",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "N_IMPORT",
+        "kind": 5,
+        "importPath": "app.api.state",
+        "description": "app.api.state",
+        "peekOfCode": "N_IMPORT = \"import\"      # waiting on yes/no button\nclass UserState:\n    def __init__(self) -> None:\n        self.flow: FlowType = FlowType.NONE\n        self.step: str = \"\"\n        self.data: Dict[str, Any] = {}\n    def set(self, flow: FlowType, step: str = \"\") -> None:\n        self.flow = flow\n        self.step = step\n        self.data = {}",
+        "detail": "app.api.state",
+        "documentation": {}
+    },
+    {
+        "label": "handle_update",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_update(data: dict) -> None:\n    with Session(config_db.engine) as db:\n        if \"callback_query\" in data:\n            handle_callback(db, data[\"callback_query\"])\n        elif \"message\" in data and data[\"message\"].get(\"text\"):\n            handle_message(db, data[\"message\"])\n# ==========================================================================\n# User helpers\n# ==========================================================================\ndef get_or_create_user(db: Session, chat: dict, from_user: dict) -> Users:",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "get_or_create_user",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def get_or_create_user(db: Session, chat: dict, from_user: dict) -> Users:\n    chat_id = str(chat[\"id\"])\n    user = db.get(Users, chat_id)\n    if not user:\n        user = Users(\n            chat_id=chat_id,\n            username=from_user.get(\"username\"),\n            first_name=from_user.get(\"first_name\"),\n            language_code=from_user.get(\"language_code\"),\n            is_bot=from_user.get(\"is_bot\", False),",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_message",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_message(db: Session, message: dict) -> None:\n    chat_id = message[\"chat\"][\"id\"]\n    text = (message.get(\"text\") or \"\").strip()\n    user = get_or_create_user(db, message[\"chat\"], message.get(\"from\", {}))\n    state = get_state(chat_id)\n    if text.startswith(\"/\"):\n        handle_command(db, chat_id, text, user, state)\n        return\n    if state.flow == FlowType.ADD:\n        add_flow_text(db, chat_id, text, user, state)",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_command",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_command(db: Session, chat_id, text: str, user: Users, state: UserState) -> None:\n    cmd = text.split()[0].lower()\n    clear_state(chat_id)\n    if cmd == \"/start\":\n        send_message(chat_id, WELCOME, buttons=menu_keyboard())\n    elif cmd == \"/help\":\n        send_message(chat_id, HELP, buttons=[[(\"🏠 Menu\", \"menu:home\")]])\n    elif cmd == \"/list\":\n        body, kb = render_list(db, str(chat_id))\n        send_message(chat_id, body, buttons=kb)",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "set_timezone",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def set_timezone(db: Session, chat_id, text: str, user: Users) -> None:\n    parts = text.split(maxsplit=1)\n    if len(parts) != 2:\n        send_message(chat_id, \"Usage: <code>/tz Area/City</code> e.g. <code>/tz Asia/Kolkata</code>\")\n        return\n    tz_name = parts[1].strip()\n    try:\n        ZoneInfo(tz_name)\n    except Exception:  # noqa: BLE001\n        send_message(chat_id, f\"❌ Unknown timezone: <code>{esc(tz_name)}</code>\")",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "nl_create",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def nl_create(db: Session, chat_id, text: str, user: Users, state: UserState) -> None:\n    tz = _user_tz(user)\n    now_local = datetime.now(ZoneInfo(tz))\n    result = parse_reminder(text, now_local=now_local, user_tz=tz)\n    if not result.ok or result.spec is None:\n        send_message(\n            chat_id,\n            \"🤔 \" + esc(result.clarification or \"I couldn't understand that.\"),\n            buttons=[[(\"➕ Guided add\", \"menu:add\")], [(\"🏠 Menu\", \"menu:home\")]],\n        )",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "render_list",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def render_list(db: Session, chat_id: str):\n    reminders = reminder_service.list_reminders(db, chat_id, active_only=True)\n    if not reminders:\n        return (\n            \"📭 No active reminders.\\n\\nType a reminder in plain English, or use /add.\",\n            [[(\"➕ Add\", \"menu:add\")], [(\"🏠 Menu\", \"menu:home\")]],\n        )\n    lines = [\"📋 <b>Your reminders</b>\\n\"]\n    kb = []\n    for i, r in enumerate(reminders[:10], 1):",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "start_add",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def start_add(db: Session, chat_id, state: UserState) -> None:\n    state.set(FlowType.ADD, st.ADD_NAME)\n    send_message(chat_id, \"✨ <b>New reminder</b>\\n\\n📝 What should I call it?\")\ndef add_flow_text(db: Session, chat_id, text: str, user: Users, state: UserState) -> None:\n    if state.step == st.ADD_NAME:\n        state.data[\"name\"] = text\n        state.step = st.ADD_TYPE\n        send_message(\n            chat_id,\n            \"🔁 One-time or recurring?\",",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "add_flow_text",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def add_flow_text(db: Session, chat_id, text: str, user: Users, state: UserState) -> None:\n    if state.step == st.ADD_NAME:\n        state.data[\"name\"] = text\n        state.step = st.ADD_TYPE\n        send_message(\n            chat_id,\n            \"🔁 One-time or recurring?\",\n            buttons=[[(\"1️⃣ One-time\", \"add:type:once\"), (\"🔁 Recurring\", \"add:type:recur\")]],\n        )\n    elif state.step == st.ADD_AMOUNT:",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "add_button",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def add_button(db: Session, chat_id, message_id, parts, user: Users, state: UserState) -> None:\n    if state.flow != FlowType.ADD:\n        return\n    field = parts[1]\n    if field == \"type\":\n        state.data[\"is_recurring\"] = parts[2] == \"recur\"\n        state.step = st.ADD_UNIT\n        edit_message_text(\n            chat_id,\n            message_id,",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "finalize_add",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def finalize_add(db: Session, chat_id, content: str, user: Users, state: UserState) -> None:\n    try:\n        spec = build_interval_spec(\n            amount=state.data[\"amount\"],\n            multiplier=state.data[\"multiplier\"],\n            is_recurring=state.data[\"is_recurring\"],\n            tz_name=_user_tz(user),\n        )\n        reminder = reminder_service.create_from_spec(\n            db,",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "render_settings",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def render_settings(user: Users):\n    notion_status = \"✅ On\" if user.notion_enabled else \"❌ Off\"\n    freq = user.notion_check_frequency or 12\n    dbs = len(user.notion_db_pages or [])\n    body = (\n        \"⚙️ <b>Settings</b>\\n\\n\"\n        f\"🌐 Timezone: <b>{esc(user.timezone or 'UTC')}</b> (change with /tz)\\n\"\n        f\"🔗 Notion: <b>{notion_status}</b>\\n\"\n        f\"⏱ Notion refresh: <b>{freq}h</b>\\n\"\n        f\"📚 Connected databases: <b>{dbs}</b>\"",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_set",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_set(db: Session, chat_id, message_id, parts, user: Users) -> None:\n    action = parts[1]\n    if action == \"toggle\":\n        user.notion_enabled = not bool(user.notion_enabled)\n    elif action == \"freq\" and len(parts) == 3 and parts[2] in (\"12\", \"24\"):\n        user.notion_check_frequency = int(parts[2])\n    elif action == \"reset\":\n        deleted = notion_sync.delete_all_notion_reminders(db, str(chat_id))\n        user.notion_api_key = None\n        user.notion_enabled = False",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "open_notion",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def open_notion(db: Session, chat_id, user: Users, state: UserState) -> None:\n    if not user.notion_api_key:\n        state.set(FlowType.NOTION, st.N_TOKEN)\n        send_message(\n            chat_id,\n            \"🔗 <b>Connect Notion</b>\\n\\n\"\n            \"1. Open https://www.notion.so/my-integrations\\n\"\n            \"2. Create an integration and copy its token\\n\"\n            \"3. Share your database with the integration\\n\\n\"\n            \"Send me the token (starts with <code>secret_</code> or <code>ntn_</code>):\",",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "render_notion_menu",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def render_notion_menu(user: Users):\n    status = \"✅ On\" if user.notion_enabled else \"❌ Off\"\n    dbs = len(user.notion_db_pages or [])\n    body = f\"🔗 <b>Notion</b>\\n\\nStatus: <b>{status}</b>\\nConnected databases: <b>{dbs}</b>\"\n    kb = [\n        [(\"➕ Add database\", \"notion:add\"), (\"➖ Remove\", \"notion:remove\")],\n        [(\"📄 List\", \"notion:list\"), (\"🔑 Change token\", \"notion:token\")],\n        [(\"✅ Done\", \"notion:done\")],\n    ]\n    return body, kb",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_notion_button",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_notion_button(db: Session, chat_id, message_id, parts, user: Users, state: UserState) -> None:\n    action = parts[1]\n    if action == \"add\":\n        state.set(FlowType.NOTION, st.N_DB_ID)\n        edit_message_text(\n            chat_id,\n            message_id,\n            \"📎 Send the Notion database ID or URL (or type <code>done</code> to finish):\",\n        )\n    elif action == \"token\":",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "notion_remove_index",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def notion_remove_index(db: Session, chat_id, message_id, idx: int, user: Users) -> None:\n    pages = list(user.notion_db_pages or [])\n    if idx < 0 or idx >= len(pages):\n        edit_message_text(chat_id, message_id, \"❌ Invalid selection.\")\n        return\n    removed = pages.pop(idx)\n    mappings = [m for m in (user.notion_db_mappings or []) if m.get(\"db_id\") != removed]\n    user.notion_db_pages = pages\n    user.notion_db_mappings = mappings\n    db.add(user)",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "notion_flow_text",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def notion_flow_text(db: Session, chat_id, text: str, user: Users, state: UserState) -> None:\n    step = state.step\n    if step == st.N_TOKEN:\n        if not text.startswith((\"secret_\", \"ntn_\")):\n            send_message(chat_id, \"❌ Token should start with <code>secret_</code> or <code>ntn_</code>. Try again:\")\n            return\n        ok, info = notion.validate_token(text)\n        if not ok:\n            send_message(chat_id, \"❌ Token validation failed. Check it and try again:\")\n            return",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "run_notion_import",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def run_notion_import(db: Session, chat_id, message_id, user: Users, state: UserState) -> None:\n    db_id = state.data.get(\"db_id\")\n    mapping = next((m for m in (user.notion_db_mappings or []) if m.get(\"db_id\") == db_id), None)\n    clear_state(chat_id)\n    if not mapping:\n        edit_message_text(chat_id, message_id, \"❌ Mapping not found.\")\n        return\n    imported, skipped = notion_sync.import_database(db, user, mapping)\n    user.notion_last_synced_at = now_utc()\n    db.add(user)",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_callback",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_callback(db: Session, cq: dict) -> None:\n    data = cq.get(\"data\", \"\")\n    cq_id = cq.get(\"id\")\n    msg = cq.get(\"message\", {})\n    chat = msg.get(\"chat\", {})\n    chat_id = chat.get(\"id\")\n    message_id = msg.get(\"message_id\")\n    if chat_id is None:\n        answer_callback_query(cq_id)\n        return",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_menu",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_menu(db: Session, chat_id, message_id, which: str, user: Users, state: UserState) -> None:\n    clear_state(chat_id)\n    if which in (\"home\", \"start\"):\n        edit_message_text(chat_id, message_id, WELCOME, buttons=menu_keyboard())\n    elif which == \"help\":\n        edit_message_text(chat_id, message_id, HELP, buttons=[[(\"🏠 Menu\", \"menu:home\")]])\n    elif which == \"list\":\n        body, kb = render_list(db, str(chat_id))\n        edit_message_text(chat_id, message_id, body, buttons=kb)\n    elif which == \"add\":",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_confirm",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_confirm(db: Session, chat_id, message_id, action: str, state: UserState) -> None:\n    if action == \"cancel\" or state.flow != FlowType.CONFIRM:\n        clear_state(chat_id)\n        edit_message_text(chat_id, message_id, \"❌ Cancelled.\", buttons=[[(\"🏠 Menu\", \"menu:home\")]])\n        return\n    try:\n        spec = ScheduleSpec.model_validate(state.data[\"spec\"])\n        reminder = reminder_service.create_from_spec(\n            db,\n            chat_id=str(chat_id),",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "handle_rem",
+        "kind": 2,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "def handle_rem(db: Session, chat_id, message_id, action: str, rid: str) -> None:\n    if action == \"done\":\n        reminder_service.mark_done(db, rid, str(chat_id))\n    elif action == \"del\":\n        reminder_service.delete_reminder(db, rid, str(chat_id))\n    elif action == \"pause\":\n        reminder_service.set_paused(db, rid, str(chat_id), True)\n    elif action == \"resume\":\n        reminder_service.set_paused(db, rid, str(chat_id), False)\n    body, kb = render_list(db, str(chat_id))",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "router = APIRouter(prefix=\"/notifications\", tags=[\"notifications\"])\nWELCOME = (\n    \"👋 <b>Welcome to Remindarr!</b>\\n\\n\"\n    \"Just tell me what to remind you about — in plain English. For example:\\n\"\n    \"• <i>remind me to call mom in 2 hours</i>\\n\"\n    \"• <i>drink water every hour during work hours, not at night</i>\\n\"\n    \"• <i>taxes on the 1st &amp; 3rd Saturday of even months at 9am</i>\\n\\n\"\n    \"Or use the buttons below.\"\n)\nHELP = (",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "WELCOME",
+        "kind": 5,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "WELCOME = (\n    \"👋 <b>Welcome to Remindarr!</b>\\n\\n\"\n    \"Just tell me what to remind you about — in plain English. For example:\\n\"\n    \"• <i>remind me to call mom in 2 hours</i>\\n\"\n    \"• <i>drink water every hour during work hours, not at night</i>\\n\"\n    \"• <i>taxes on the 1st &amp; 3rd Saturday of even months at 9am</i>\\n\\n\"\n    \"Or use the buttons below.\"\n)\nHELP = (\n    \"📚 <b>Remindarr Help</b>\\n\\n\"",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "HELP",
+        "kind": 5,
+        "importPath": "app.api.telegram_webhook",
+        "description": "app.api.telegram_webhook",
+        "peekOfCode": "HELP = (\n    \"📚 <b>Remindarr Help</b>\\n\\n\"\n    \"<b>Natural language</b> — just type what you want:\\n\"\n    \"  <i>“water every hour 9–6 except lunch”</i>\\n\"\n    \"I'll show you what I understood and you confirm with a tap.\\n\\n\"\n    \"<b>Commands</b>\\n\"\n    \"/add — guided reminder setup\\n\"\n    \"/list — view &amp; manage reminders\\n\"\n    \"/notion — connect a Notion database\\n\"\n    \"/settings — preferences\\n\"",
+        "detail": "app.api.telegram_webhook",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "peekOfCode": "class Settings(BaseSettings):\n    # ----- Database -----------------------------------------------------\n    # Preferred: a full SQLAlchemy URL. If absent we assemble one from parts.\n    database_url: Optional[str] = None\n    db_schema: str = \"remindarr\"\n    # Legacy parts (fallback when database_url is not provided)\n    db_user: Optional[str] = None\n    db_password: Optional[str] = None\n    db_name: Optional[str] = None\n    db_host: Optional[str] = None",
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.common.constants",
+        "description": "app.common.constants",
+        "peekOfCode": "settings = Settings()",
+        "detail": "app.common.constants",
+        "documentation": {}
+    },
+    {
+        "label": "TimeWindow",
+        "kind": 6,
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "peekOfCode": "class TimeWindow(BaseModel):\n    \"\"\"A local time-of-day range, ``\"HH:MM\"`` 24h.\n    If ``end <= start`` the window is treated as crossing midnight\n    (e.g. ``22:00``–``07:00``).\n    \"\"\"\n    start: str\n    end: str\n    @field_validator(\"start\", \"end\")\n    @classmethod\n    def _valid_hhmm(cls, v: str) -> str:",
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleSpec",
+        "kind": 6,
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "peekOfCode": "class ScheduleSpec(BaseModel):\n    \"\"\"Structured schedule. Source of truth for a reminder.\n    One-time reminders set ``kind='one_time'`` and ``at``. Recurring reminders\n    set ``kind='recurring'`` and ``rrule`` (RFC 5545, *without* a DTSTART /\n    COUNT / UNTIL line — those live in dedicated fields so window-filtered\n    occurrences don't miscount).\n    \"\"\"\n    kind: Literal[\"one_time\", \"recurring\"]\n    timezone: str = \"UTC\"\n    # one-time",
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ParseResult",
+        "kind": 6,
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "peekOfCode": "class ParseResult(BaseModel):\n    \"\"\"Outcome of converting natural language into a :class:`ScheduleSpec`.\"\"\"\n    ok: bool\n    spec: Optional[ScheduleSpec] = None\n    # Human-readable confirmation line, e.g. \"Every day at 9:00 AM (UTC)\".\n    summary: Optional[str] = None\n    # When the input is ambiguous/unsupported, a message to show the user.\n    clarification: Optional[str] = None\n    # Model-suggested title and message body for the reminder.\n    name: Optional[str] = None",
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsPayload",
+        "kind": 6,
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "peekOfCode": "class SettingsPayload(BaseModel):\n    chat_id: str\n    notion_enabled: Optional[bool] = None\n    notion_check_frequency: Optional[int] = None\n    timezone: Optional[str] = None",
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "_HHMM_RE",
+        "kind": 5,
+        "importPath": "app.common.schemas",
+        "description": "app.common.schemas",
+        "peekOfCode": "_HHMM_RE = re.compile(r\"^([01]\\d|2[0-3]):([0-5]\\d)$\")\nclass TimeWindow(BaseModel):\n    \"\"\"A local time-of-day range, ``\"HH:MM\"`` 24h.\n    If ``end <= start`` the window is treated as crossing midnight\n    (e.g. ``22:00``–``07:00``).\n    \"\"\"\n    start: str\n    end: str\n    @field_validator(\"start\", \"end\")\n    @classmethod",
+        "detail": "app.common.schemas",
+        "documentation": {}
+    },
+    {
         "label": "Settings",
         "kind": 6,
         "importPath": "app.constants.constants",
@@ -829,7 +2513,7 @@
         "kind": 2,
         "importPath": "app.db.config_db",
         "description": "app.db.config_db",
-        "peekOfCode": "def init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.\n    \"\"\"\n    # Get our target schema\n    schema = Settings().db_schema\n    # Create a raw connection to create the schema\n    with engine.begin() as conn:\n        # Check if schema exists\n        result = conn.execute(",
+        "peekOfCode": "def init_db() -> None:\n    \"\"\"Create the target schema (if needed) and all tables.\"\"\"\n    schema = settings.db_schema\n    with engine.begin() as conn:\n        if schema and schema != \"public\":\n            conn.execute(text(f'CREATE SCHEMA IF NOT EXISTS \"{schema}\"'))\n    # Import models so they register on SQLModel.metadata before create_all.\n    import app.db.models  # noqa: F401\n    SQLModel.metadata.create_all(engine)\ndef get_session():",
         "detail": "app.db.config_db",
         "documentation": {}
     },
@@ -838,16 +2522,7 @@
         "kind": 2,
         "importPath": "app.db.config_db",
         "description": "app.db.config_db",
-        "peekOfCode": "def get_session():\n    \"\"\"\n    FastAPI dependency for a per-request session.\n    \"\"\"\n    with Session(engine) as session:\n        yield session",
-        "detail": "app.db.config_db",
-        "documentation": {}
-    },
-    {
-        "label": "db_url",
-        "kind": 5,
-        "importPath": "app.db.config_db",
-        "description": "app.db.config_db",
-        "peekOfCode": "db_url = (\n    f\"postgresql+psycopg2://\"\n    f\"{Settings().db_user}:{Settings().db_password}@\"\n    f\"{Settings().db_host}:{Settings().db_port}/{Settings().db_name}\"\n)\n# Create SQLModel engine (sync)\nengine = create_engine(db_url, echo=True, future=True)\ndef init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.",
+        "peekOfCode": "def get_session():\n    \"\"\"FastAPI dependency: one Session per request.\"\"\"\n    with Session(engine) as session:\n        yield session",
         "detail": "app.db.config_db",
         "documentation": {}
     },
@@ -856,7 +2531,7 @@
         "kind": 5,
         "importPath": "app.db.config_db",
         "description": "app.db.config_db",
-        "peekOfCode": "engine = create_engine(db_url, echo=True, future=True)\ndef init_db() -> None:\n    \"\"\"\n    Initialize database schema and all SQLModel tables.\n    \"\"\"\n    # Get our target schema\n    schema = Settings().db_schema\n    # Create a raw connection to create the schema\n    with engine.begin() as conn:\n        # Check if schema exists",
+        "peekOfCode": "engine = create_engine(settings.database_url, echo=False, future=True, pool_pre_ping=True)\ndef init_db() -> None:\n    \"\"\"Create the target schema (if needed) and all tables.\"\"\"\n    schema = settings.db_schema\n    with engine.begin() as conn:\n        if schema and schema != \"public\":\n            conn.execute(text(f'CREATE SCHEMA IF NOT EXISTS \"{schema}\"'))\n    # Import models so they register on SQLModel.metadata before create_all.\n    import app.db.models  # noqa: F401\n    SQLModel.metadata.create_all(engine)",
         "detail": "app.db.config_db",
         "documentation": {}
     },
@@ -865,7 +2540,7 @@
         "kind": 6,
         "importPath": "app.db.models",
         "description": "app.db.models",
-        "peekOfCode": "class Base(SQLModel):\n    __table_args__ = {\"schema\": Settings().db_schema}\nclass Users(Base, table=True):\n    \"\"\"Store user information and integration settings.\"\"\"\n    __tablename__ = \"users\"\n    # Telegram Info (from message.from and message.chat)\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None, description=\"Telegram username\")\n    first_name: Optional[str] = Field(\n        default=None, description=\"User's first name from Telegram\"",
+        "peekOfCode": "class Base(SQLModel):\n    __table_args__ = {\"schema\": settings.db_schema}\nclass Users(Base, table=True):\n    \"\"\"Telegram user + integration settings.\"\"\"\n    __tablename__ = \"users\"\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None)\n    first_name: Optional[str] = Field(default=None)\n    language_code: Optional[str] = Field(default=None)\n    is_bot: bool = Field(default=False)",
         "detail": "app.db.models",
         "documentation": {}
     },
@@ -874,7 +2549,7 @@
         "kind": 6,
         "importPath": "app.db.models",
         "description": "app.db.models",
-        "peekOfCode": "class Users(Base, table=True):\n    \"\"\"Store user information and integration settings.\"\"\"\n    __tablename__ = \"users\"\n    # Telegram Info (from message.from and message.chat)\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None, description=\"Telegram username\")\n    first_name: Optional[str] = Field(\n        default=None, description=\"User's first name from Telegram\"\n    )\n    language_code: Optional[str] = Field(",
+        "peekOfCode": "class Users(Base, table=True):\n    \"\"\"Telegram user + integration settings.\"\"\"\n    __tablename__ = \"users\"\n    chat_id: str = Field(primary_key=True, description=\"Telegram chat/user ID\")\n    username: Optional[str] = Field(default=None)\n    first_name: Optional[str] = Field(default=None)\n    language_code: Optional[str] = Field(default=None)\n    is_bot: bool = Field(default=False)\n    # Notion integration\n    notion_api_key: Optional[str] = Field(default=None)",
         "detail": "app.db.models",
         "documentation": {}
     },
@@ -883,7 +2558,7 @@
         "kind": 6,
         "importPath": "app.db.models",
         "description": "app.db.models",
-        "peekOfCode": "class Reminders(Base, table=True):\n    __tablename__ = \"reminders\"\n    id: str = Field(\n        default_factory=lambda: str(uuid.uuid4()), primary_key=True, index=True\n    )\n    created_at: Optional[datetime] = Field(\n        sa_column=Column(\n            DateTime(timezone=True), server_default=func.now(), nullable=False\n        )\n    )",
+        "peekOfCode": "class Reminders(Base, table=True):\n    __tablename__ = \"reminders\"\n    id: str = Field(\n        default_factory=lambda: str(uuid.uuid4()), primary_key=True, index=True\n    )\n    chat_id: str = Field(index=True, description=\"Telegram chat id to notify\")\n    reminder_name: str = Field(sa_column=Column(Text, nullable=False))\n    reminder_content: str = Field(sa_column=Column(Text, nullable=False))\n    # 'user' (guided /add), 'llm' (natural language), or 'notion'\n    source: str = Field(default=\"user\", sa_column=Column(String(16), nullable=False))",
         "detail": "app.db.models",
         "documentation": {}
     },
@@ -1077,11 +2752,65 @@
         "documentation": {}
     },
     {
+        "label": "LLMGatewayError",
+        "kind": 6,
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
+        "peekOfCode": "class LLMGatewayError(RuntimeError):\n    pass\nclass LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n    ):\n        self.base_url = (base_url or settings.llm_gateway_url).rstrip(\"/\")",
+        "detail": "app.services.llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "LLMGatewayClient",
+        "kind": 6,
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
+        "peekOfCode": "class LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n    ):\n        self.base_url = (base_url or settings.llm_gateway_url).rstrip(\"/\")\n        self.api_key = api_key or settings.llm_gateway_api_key\n        self.model = model or settings.llm_model",
+        "detail": "app.services.llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "gateway",
+        "kind": 5,
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
+        "peekOfCode": "gateway = LLMGatewayClient()",
+        "detail": "app.services.llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "parse_reminder",
+        "kind": 2,
+        "importPath": "app.services.nl_parser",
+        "description": "app.services.nl_parser",
+        "peekOfCode": "def parse_reminder(text: str, *, now_local: datetime, user_tz: str) -> ParseResult:\n    \"\"\"Convert ``text`` into a ScheduleSpec, with one repair retry.\n    Also attaches the model-suggested name/content onto the result's spec via a\n    side channel: callers read ``result._name`` / ``result._content`` when set.\n    \"\"\"\n    if not gateway.configured:\n        return ParseResult(\n            ok=False,\n            clarification=\"Natural-language reminders aren't configured yet. \"\n            \"Use /add to create one step by step.\",",
+        "detail": "app.services.nl_parser",
+        "documentation": {}
+    },
+    {
+        "label": "_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "app.services.nl_parser",
+        "description": "app.services.nl_parser",
+        "peekOfCode": "_SYSTEM_PROMPT = \"\"\"\\\nYou convert a person's natural-language reminder into a strict JSON schedule.\nOutput ONLY a JSON object (no prose, no markdown fences) with this shape:\n{\n  \"ok\": true,\n  \"summary\": \"<short human-readable description of WHAT and WHEN>\",\n  \"spec\": {\n    \"kind\": \"one_time\" | \"recurring\",\n    \"timezone\": \"<IANA tz>\",                      // default to the user's tz\n    \"at\": \"YYYY-MM-DDTHH:MM:SS\",                  // local wall-clock, one_time only",
+        "detail": "app.services.nl_parser",
+        "documentation": {}
+    },
+    {
+        "label": "process_due_reminders",
+        "kind": 2,
+        "importPath": "app.services.notification_worker",
+        "description": "app.services.notification_worker",
+        "peekOfCode": "def process_due_reminders() -> None:\n    \"\"\"One synchronous poll-and-send pass.\"\"\"\n    now = now_utc()\n    with Session(config_db.engine) as db:\n        stmt = (\n            select(Reminders)\n            .where(Reminders.active == True)  # noqa: E712\n            .where(Reminders.paused == False)  # noqa: E712\n            .where(Reminders.next_trigger_at != None)  # noqa: E711\n            .where(Reminders.next_trigger_at <= now)",
+        "detail": "app.services.notification_worker",
+        "documentation": {}
+    },
+    {
         "label": "start_worker",
         "kind": 2,
         "importPath": "app.services.notification_worker",
         "description": "app.services.notification_worker",
-        "peekOfCode": "def start_worker(app) -> None:\n    \"\"\"Start the reminder background task. Call from an async startup handler.\"\"\"\n    # create stop event and background task\n    app.state._reminder_stop = asyncio.Event()\n    app.state._reminder_task = asyncio.create_task(_reminder_loop(app))\nasync def stop_worker(app) -> None:\n    \"\"\"Signal the worker to stop and await its completion. Call from async shutdown handler.\"\"\"\n    if not hasattr(app.state, \"_reminder_stop\"):\n        return\n    app.state._reminder_stop.set()",
+        "peekOfCode": "def start_worker(app) -> None:\n    app.state._reminder_stop = asyncio.Event()\n    app.state._reminder_task = asyncio.create_task(_reminder_loop(app))\nasync def stop_worker(app) -> None:\n    if not hasattr(app.state, \"_reminder_stop\"):\n        return\n    app.state._reminder_stop.set()\n    task = getattr(app.state, \"_reminder_task\", None)\n    if task:\n        await task",
         "detail": "app.services.notification_worker",
         "documentation": {}
     },
@@ -1090,8 +2819,215 @@
         "kind": 5,
         "importPath": "app.services.notification_worker",
         "description": "app.services.notification_worker",
-        "peekOfCode": "CHECK_INTERVAL_SECONDS = 60  # how often to poll for due reminders\nasync def _reminder_loop(app) -> None:\n    \"\"\"Background loop: query due reminders, send messages, reschedule.\"\"\"\n    engine = config_db.engine\n    # use a stop event stored on the app state to allow graceful shutdown\n    stop_event: asyncio.Event = app.state._reminder_stop\n    while not stop_event.is_set():\n        try:\n            utc_now = datetime.datetime.now(pytz.UTC)\n            # Use a DB session to select due reminders and lock rows to avoid double-processing",
+        "peekOfCode": "CHECK_INTERVAL_SECONDS = 60\ndef _fired_buttons(reminder: Reminders):\n    if reminder.schedule_kind == \"recurring\":\n        return [[(\"✅ Done\", f\"rem:done:{reminder.id}\"), (\"⏸ Pause\", f\"rem:pause:{reminder.id}\")]]\n    return None\ndef _format_message(reminder: Reminders) -> str:\n    local = format_datetime_for_user(now_utc(), reminder.timezone)\n    return (\n        f\"🔔 <b>{esc(reminder.reminder_name)}</b>\\n\\n\"\n        f\"{esc(reminder.reminder_content)}\\n\\n\"",
         "detail": "app.services.notification_worker",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token",
+        "kind": 2,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "def validate_token(token: str) -> Tuple[bool, Optional[dict]]:\n    try:\n        resp = _client.get(\"https://api.notion.com/v1/users/me\", headers=_headers(token))\n        if resp.status_code == 200:\n            return True, resp.json()\n    except Exception as exc:  # noqa: BLE001\n        logger.error(\"Notion token validation error: %s\", exc)\n    return False, None\ndef get_database(token: str, db_id: str) -> Tuple[bool, Optional[dict]]:\n    try:",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "kind": 2,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "def get_database(token: str, db_id: str) -> Tuple[bool, Optional[dict]]:\n    try:\n        resp = _client.get(\n            f\"https://api.notion.com/v1/databases/{db_id}\", headers=_headers(token)\n        )\n        if resp.status_code == 200:\n            return True, resp.json()\n        logger.error(\"Failed to fetch Notion DB %s: %s\", db_id, resp.text)\n    except Exception as exc:  # noqa: BLE001\n        logger.error(\"Notion database fetch error: %s\", exc)",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "query_incomplete_due",
+        "kind": 2,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "def query_incomplete_due(\n    token: str,\n    db_id: str,\n    *,\n    time_prop: Optional[str] = None,\n    status_prop: Optional[str] = None,\n    status_prop_type: Optional[str] = None,\n    complete_values: Optional[List[str]] = None,\n    horizon_hours: int = 24,\n) -> Tuple[bool, list]:",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "extract_property_value",
+        "kind": 2,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "def extract_property_value(prop_data: Optional[dict]):\n    \"\"\"Extract a usable value from a Notion property cell, by its type.\"\"\"\n    if not prop_data:\n        return None\n    ptype = prop_data.get(\"type\")\n    if ptype == \"title\":\n        return \"\".join(t.get(\"plain_text\", \"\") for t in prop_data.get(\"title\", [])).strip() or None\n    if ptype == \"rich_text\":\n        return \"\".join(t.get(\"plain_text\", \"\") for t in prop_data.get(\"rich_text\", [])).strip() or None\n    if ptype == \"date\":",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "is_done",
+        "kind": 2,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "def is_done(value, prop_type: Optional[str], complete_values: Optional[List[str]] = None) -> bool:\n    \"\"\"Decide whether an extracted status value means 'completed'.\"\"\"\n    if prop_type == \"checkbox\":\n        return value is True\n    if value is None:\n        return False\n    finished = {v.lower() for v in (complete_values or DEFAULT_COMPLETE_VALUES)}\n    return str(value).strip().lower() in finished",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "_NOTION_VERSION",
+        "kind": 5,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "_NOTION_VERSION = \"2022-06-28\"\n_client = httpx.Client(timeout=httpx.Timeout(20.0, connect=10.0))\n# Default values that mean \"this task is finished\" for select/status properties.\nDEFAULT_COMPLETE_VALUES = (\"done\", \"complete\", \"completed\", \"finished\", \"archived\")\ndef _headers(token: str, json_body: bool = False) -> dict:\n    h = {\"Authorization\": f\"Bearer {token}\", \"Notion-Version\": _NOTION_VERSION}\n    if json_body:\n        h[\"Content-Type\"] = \"application/json\"\n    return h\ndef validate_token(token: str) -> Tuple[bool, Optional[dict]]:",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "_client",
+        "kind": 5,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "_client = httpx.Client(timeout=httpx.Timeout(20.0, connect=10.0))\n# Default values that mean \"this task is finished\" for select/status properties.\nDEFAULT_COMPLETE_VALUES = (\"done\", \"complete\", \"completed\", \"finished\", \"archived\")\ndef _headers(token: str, json_body: bool = False) -> dict:\n    h = {\"Authorization\": f\"Bearer {token}\", \"Notion-Version\": _NOTION_VERSION}\n    if json_body:\n        h[\"Content-Type\"] = \"application/json\"\n    return h\ndef validate_token(token: str) -> Tuple[bool, Optional[dict]]:\n    try:",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_COMPLETE_VALUES",
+        "kind": 5,
+        "importPath": "app.services.notion",
+        "description": "app.services.notion",
+        "peekOfCode": "DEFAULT_COMPLETE_VALUES = (\"done\", \"complete\", \"completed\", \"finished\", \"archived\")\ndef _headers(token: str, json_body: bool = False) -> dict:\n    h = {\"Authorization\": f\"Bearer {token}\", \"Notion-Version\": _NOTION_VERSION}\n    if json_body:\n        h[\"Content-Type\"] = \"application/json\"\n    return h\ndef validate_token(token: str) -> Tuple[bool, Optional[dict]]:\n    try:\n        resp = _client.get(\"https://api.notion.com/v1/users/me\", headers=_headers(token))\n        if resp.status_code == 200:",
+        "detail": "app.services.notion",
+        "documentation": {}
+    },
+    {
+        "label": "import_database",
+        "kind": 2,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "def import_database(db: Session, user: Users, mapping: dict) -> Tuple[int, int]:\n    \"\"\"Import incomplete due tasks for one mapped database. Returns (imported, skipped).\"\"\"\n    db_id = mapping.get(\"db_id\")\n    name_prop = mapping.get(\"name_prop\")\n    time_prop = mapping.get(\"time_prop\")\n    status_prop = mapping.get(\"status_prop\")\n    status_prop_type = mapping.get(\"status_prop_type\")\n    complete_values = mapping.get(\"status_complete_values\")\n    tz_name = user.timezone or \"UTC\"\n    ok, pages = notion.query_incomplete_due(",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "sync_user",
+        "kind": 2,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "def sync_user(db: Session, user: Users) -> Tuple[int, int]:\n    total_imported = total_skipped = 0\n    for mapping in user.notion_db_mappings or []:\n        imp, skp = import_database(db, user, mapping)\n        total_imported += imp\n        total_skipped += skp\n    user.notion_last_synced_at = now_utc()\n    db.add(user)\n    db.commit()\n    return total_imported, total_skipped",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "delete_db_reminders",
+        "kind": 2,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "def delete_db_reminders(db: Session, chat_id: str, db_id: str) -> int:\n    \"\"\"Delete reminders created from a given Notion database. Returns count.\"\"\"\n    rows: List[Reminders] = list(\n        db.exec(\n            select(Reminders).where(\n                Reminders.chat_id == str(chat_id), Reminders.notion_db_id == db_id\n            )\n        ).all()\n    )\n    for row in rows:",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_notion_reminders",
+        "kind": 2,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "def delete_all_notion_reminders(db: Session, chat_id: str) -> int:\n    rows: List[Reminders] = list(\n        db.exec(\n            select(Reminders).where(\n                Reminders.chat_id == str(chat_id), Reminders.source == \"notion\"\n            )\n        ).all()\n    )\n    for row in rows:\n        db.delete(row)",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "start_notion_sync",
+        "kind": 2,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "def start_notion_sync(app) -> None:\n    app.state._notion_stop = asyncio.Event()\n    app.state._notion_task = asyncio.create_task(_sync_loop(app))\nasync def stop_notion_sync(app) -> None:\n    if not hasattr(app.state, \"_notion_stop\"):\n        return\n    app.state._notion_stop.set()\n    task = getattr(app.state, \"_notion_task\", None)\n    if task:\n        await task",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "SYNC_TICK_SECONDS",
+        "kind": 5,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "SYNC_TICK_SECONDS = 600  # how often we look for users due a Notion refresh\nDEFAULT_DUE_HOUR = 9  # date-only Notion due dates fire at 09:00 local\ndef _frequency_hours(user: Users) -> int:\n    # Defensive: tolerate the legacy misspelled attribute if present.\n    return getattr(user, \"notion_check_frequency\", None) or getattr(\n        user, \"notion_check_frequence\", 12\n    )\ndef _due_for_sync(user: Users, now: datetime) -> bool:\n    if not (user.notion_enabled and user.notion_api_key):\n        return False",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_DUE_HOUR",
+        "kind": 5,
+        "importPath": "app.services.notion_sync",
+        "description": "app.services.notion_sync",
+        "peekOfCode": "DEFAULT_DUE_HOUR = 9  # date-only Notion due dates fire at 09:00 local\ndef _frequency_hours(user: Users) -> int:\n    # Defensive: tolerate the legacy misspelled attribute if present.\n    return getattr(user, \"notion_check_frequency\", None) or getattr(\n        user, \"notion_check_frequence\", 12\n    )\ndef _due_for_sync(user: Users, now: datetime) -> bool:\n    if not (user.notion_enabled and user.notion_api_key):\n        return False\n    last = user.notion_last_synced_at",
+        "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "create_from_spec",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def create_from_spec(\n    db: Session,\n    *,\n    chat_id: str,\n    name: str,\n    content: str,\n    spec: ScheduleSpec,\n    source: str = \"llm\",\n    nl_text: Optional[str] = None,\n    notion_db_id: Optional[str] = None,",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "spec_of",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def spec_of(reminder: Reminders) -> ScheduleSpec:\n    \"\"\"Rehydrate the ScheduleSpec from the stored JSON.\"\"\"\n    return ScheduleSpec.model_validate(reminder.schedule_spec)\ndef list_reminders(db: Session, chat_id: str, *, active_only: bool = True) -> List[Reminders]:\n    stmt = select(Reminders).where(Reminders.chat_id == str(chat_id))\n    if active_only:\n        stmt = stmt.where(Reminders.active == True)  # noqa: E712\n    stmt = stmt.order_by(Reminders.next_trigger_at.is_(None), Reminders.next_trigger_at)\n    return list(db.exec(stmt).all())\ndef get_reminder(db: Session, reminder_id: str, chat_id: str) -> Optional[Reminders]:",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_reminders",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def list_reminders(db: Session, chat_id: str, *, active_only: bool = True) -> List[Reminders]:\n    stmt = select(Reminders).where(Reminders.chat_id == str(chat_id))\n    if active_only:\n        stmt = stmt.where(Reminders.active == True)  # noqa: E712\n    stmt = stmt.order_by(Reminders.next_trigger_at.is_(None), Reminders.next_trigger_at)\n    return list(db.exec(stmt).all())\ndef get_reminder(db: Session, reminder_id: str, chat_id: str) -> Optional[Reminders]:\n    reminder = db.get(Reminders, reminder_id)\n    if reminder and reminder.chat_id == str(chat_id):\n        return reminder",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_reminder",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def get_reminder(db: Session, reminder_id: str, chat_id: str) -> Optional[Reminders]:\n    reminder = db.get(Reminders, reminder_id)\n    if reminder and reminder.chat_id == str(chat_id):\n        return reminder\n    return None\ndef delete_reminder(db: Session, reminder_id: str, chat_id: str) -> bool:\n    reminder = get_reminder(db, reminder_id, chat_id)\n    if not reminder:\n        return False\n    db.delete(reminder)",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reminder",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def delete_reminder(db: Session, reminder_id: str, chat_id: str) -> bool:\n    reminder = get_reminder(db, reminder_id, chat_id)\n    if not reminder:\n        return False\n    db.delete(reminder)\n    db.commit()\n    return True\ndef set_paused(db: Session, reminder_id: str, chat_id: str, paused: bool) -> Optional[Reminders]:\n    reminder = get_reminder(db, reminder_id, chat_id)\n    if not reminder:",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "set_paused",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def set_paused(db: Session, reminder_id: str, chat_id: str, paused: bool) -> Optional[Reminders]:\n    reminder = get_reminder(db, reminder_id, chat_id)\n    if not reminder:\n        return None\n    reminder.paused = paused\n    reminder.updated_at = now_utc()\n    db.add(reminder)\n    db.commit()\n    db.refresh(reminder)\n    return reminder",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "mark_done",
+        "kind": 2,
+        "importPath": "app.services.reminder_service",
+        "description": "app.services.reminder_service",
+        "peekOfCode": "def mark_done(db: Session, reminder_id: str, chat_id: str) -> Optional[Reminders]:\n    \"\"\"Deactivate a reminder (user pressed 'Done').\"\"\"\n    reminder = get_reminder(db, reminder_id, chat_id)\n    if not reminder:\n        return None\n    reminder.active = False\n    reminder.next_trigger_at = None\n    reminder.updated_at = now_utc()\n    db.add(reminder)\n    db.commit()",
+        "detail": "app.services.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "esc",
+        "kind": 2,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "def esc(text: Optional[str]) -> str:\n    \"\"\"HTML-escape user/dynamic content for safe inclusion in messages.\"\"\"\n    return html.escape(text or \"\", quote=False)\ndef _markup(buttons: Optional[Keyboard]) -> Optional[dict]:\n    if not buttons:\n        return None\n    return {\n        \"inline_keyboard\": [\n            [{\"text\": label, \"callback_data\": data} for (label, data) in row]\n            for row in buttons",
+        "detail": "app.services.telegram",
         "documentation": {}
     },
     {
@@ -1099,7 +3035,70 @@
         "kind": 2,
         "importPath": "app.services.telegram",
         "description": "app.services.telegram",
-        "peekOfCode": "def send_message(bot_token: str, chat_id: str, message: str) -> None:\n    url = f\"https://api.telegram.org/bot{bot_token}/sendMessage\"\n    payload = {\n        \"chat_id\": chat_id,\n        \"text\": message\n    }\n    response = requests.post(url, json=payload)\n    response.raise_for_status()  # Raise an error for bad responses",
+        "peekOfCode": "def send_message(\n    chat_id, text: str, buttons: Optional[Keyboard] = None, parse_mode: str = \"HTML\"\n) -> Optional[dict]:\n    payload = {\n        \"chat_id\": chat_id,\n        \"text\": text,\n        \"parse_mode\": parse_mode,\n        \"disable_web_page_preview\": True,\n    }\n    markup = _markup(buttons)",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "edit_message_text",
+        "kind": 2,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "def edit_message_text(\n    chat_id, message_id: int, text: str, buttons: Optional[Keyboard] = None\n) -> Optional[dict]:\n    payload = {\n        \"chat_id\": chat_id,\n        \"message_id\": message_id,\n        \"text\": text,\n        \"parse_mode\": \"HTML\",\n        \"disable_web_page_preview\": True,\n    }",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "answer_callback_query",
+        "kind": 2,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "def answer_callback_query(\n    callback_query_id: str, text: Optional[str] = None, show_alert: bool = False\n) -> Optional[dict]:\n    payload = {\"callback_query_id\": callback_query_id, \"show_alert\": show_alert}\n    if text:\n        payload[\"text\"] = text\n    return _post(\"answerCallbackQuery\", payload)\ndef menu_keyboard() -> List[List[Button]]:\n    \"\"\"The persistent main-menu inline keyboard.\"\"\"\n    return [",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "menu_keyboard",
+        "kind": 2,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "def menu_keyboard() -> List[List[Button]]:\n    \"\"\"The persistent main-menu inline keyboard.\"\"\"\n    return [\n        [(\"➕ Add reminder\", \"menu:add\"), (\"📋 My reminders\", \"menu:list\")],\n        [(\"🔗 Notion\", \"menu:notion\"), (\"⚙️ Settings\", \"menu:settings\")],\n        [(\"❓ Help\", \"menu:help\")],\n    ]",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "_API",
+        "kind": 5,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "_API = \"https://api.telegram.org\"\n_client = httpx.Client(timeout=httpx.Timeout(15.0, connect=10.0))\n# A keyboard is a list of rows; each row is a list of (label, callback_data).\nButton = Tuple[str, str]\nKeyboard = Sequence[Sequence[Button]]\ndef esc(text: Optional[str]) -> str:\n    \"\"\"HTML-escape user/dynamic content for safe inclusion in messages.\"\"\"\n    return html.escape(text or \"\", quote=False)\ndef _markup(buttons: Optional[Keyboard]) -> Optional[dict]:\n    if not buttons:",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "_client",
+        "kind": 5,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "_client = httpx.Client(timeout=httpx.Timeout(15.0, connect=10.0))\n# A keyboard is a list of rows; each row is a list of (label, callback_data).\nButton = Tuple[str, str]\nKeyboard = Sequence[Sequence[Button]]\ndef esc(text: Optional[str]) -> str:\n    \"\"\"HTML-escape user/dynamic content for safe inclusion in messages.\"\"\"\n    return html.escape(text or \"\", quote=False)\ndef _markup(buttons: Optional[Keyboard]) -> Optional[dict]:\n    if not buttons:\n        return None",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "kind": 5,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "Button = Tuple[str, str]\nKeyboard = Sequence[Sequence[Button]]\ndef esc(text: Optional[str]) -> str:\n    \"\"\"HTML-escape user/dynamic content for safe inclusion in messages.\"\"\"\n    return html.escape(text or \"\", quote=False)\ndef _markup(buttons: Optional[Keyboard]) -> Optional[dict]:\n    if not buttons:\n        return None\n    return {\n        \"inline_keyboard\": [",
+        "detail": "app.services.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "Keyboard",
+        "kind": 5,
+        "importPath": "app.services.telegram",
+        "description": "app.services.telegram",
+        "peekOfCode": "Keyboard = Sequence[Sequence[Button]]\ndef esc(text: Optional[str]) -> str:\n    \"\"\"HTML-escape user/dynamic content for safe inclusion in messages.\"\"\"\n    return html.escape(text or \"\", quote=False)\ndef _markup(buttons: Optional[Keyboard]) -> Optional[dict]:\n    if not buttons:\n        return None\n    return {\n        \"inline_keyboard\": [\n            [{\"text\": label, \"callback_data\": data} for (label, data) in row]",
         "detail": "app.services.telegram",
         "documentation": {}
     },
@@ -1113,11 +3112,74 @@
         "documentation": {}
     },
     {
+        "label": "in_window",
+        "kind": 2,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "def in_window(t: time, w: TimeWindow) -> bool:\n    \"\"\"Is ``t`` inside window ``w``? ``end <= start`` means it crosses midnight.\"\"\"\n    start = _parse_hhmm(w.start)\n    end = _parse_hhmm(w.end)\n    if start <= end:\n        return start <= t < end\n    # crosses midnight, e.g. 22:00–07:00\n    return t >= start or t < end\ndef passes_windows(local_dt: datetime, spec: ScheduleSpec) -> bool:\n    \"\"\"A candidate (naive local) time is allowed iff it is inside *some* active",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "passes_windows",
+        "kind": 2,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "def passes_windows(local_dt: datetime, spec: ScheduleSpec) -> bool:\n    \"\"\"A candidate (naive local) time is allowed iff it is inside *some* active\n    window (when any are defined) and outside *all* blackout windows.\"\"\"\n    t = local_dt.time()\n    if spec.active_windows:\n        if not any(in_window(t, w) for w in spec.active_windows):\n            return False\n    if spec.blackout_windows:\n        if any(in_window(t, w) for w in spec.blackout_windows):\n            return False",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "compute_next_trigger",
+        "kind": 2,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "def compute_next_trigger(spec: ScheduleSpec, after_utc: datetime) -> Optional[datetime]:\n    \"\"\"Return the next UTC trigger strictly after ``after_utc``, or ``None``.\n    ``None`` means the schedule has no further occurrences (one-time already\n    past, RRULE exhausted by ``until``, or no window-satisfying time within the\n    scan cap).\n    \"\"\"\n    after_utc = _as_utc(after_utc)\n    tz = ZoneInfo(spec.timezone)\n    if spec.kind == \"one_time\":\n        if spec.at is None:",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "advance_past_backlog",
+        "kind": 2,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "def advance_past_backlog(\n    spec: ScheduleSpec, last_scheduled_utc: datetime, now_utc: datetime\n) -> Optional[datetime]:\n    \"\"\"Next trigger after the one that just fired, skipping any missed\n    occurrences (e.g. while the worker was down) *without* firing them.\n    Walking occurrence-by-occurrence from the scheduled time keeps the RRULE\n    cadence (no drift); we just don't emit the backlog.\n    \"\"\"\n    now_utc = _as_utc(now_utc)\n    nxt = compute_next_trigger(spec, last_scheduled_utc)",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "describe_spec",
+        "kind": 2,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "def describe_spec(spec: ScheduleSpec) -> str:\n    \"\"\"A best-effort plain-English summary. The LLM normally provides a nicer\n    one; this is the deterministic fallback used by the guided flow and tests.\"\"\"\n    if spec.kind == \"one_time\" and spec.at is not None:\n        return f\"Once on {spec.at.strftime('%Y-%m-%d %H:%M')} ({spec.timezone})\"\n    parts = []\n    rule = (spec.rrule or \"\").upper()\n    freq = next((f for f in _FREQ_WORD if f\"FREQ={f}\" in rule), None)\n    if freq:\n        parts.append(f\"Every {_FREQ_WORD[freq]}\")",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "_MAX_SCAN",
+        "kind": 5,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "_MAX_SCAN = 5000\ndef _parse_hhmm(s: str) -> time:\n    hh, mm = s.split(\":\")\n    return time(int(hh), int(mm))\ndef in_window(t: time, w: TimeWindow) -> bool:\n    \"\"\"Is ``t`` inside window ``w``? ``end <= start`` means it crosses midnight.\"\"\"\n    start = _parse_hhmm(w.start)\n    end = _parse_hhmm(w.end)\n    if start <= end:\n        return start <= t < end",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
+        "label": "_FREQ_WORD",
+        "kind": 5,
+        "importPath": "app.utils.scheduling",
+        "description": "app.utils.scheduling",
+        "peekOfCode": "_FREQ_WORD = {\n    \"MINUTELY\": \"minute\",\n    \"HOURLY\": \"hour\",\n    \"DAILY\": \"day\",\n    \"WEEKLY\": \"week\",\n    \"MONTHLY\": \"month\",\n    \"YEARLY\": \"year\",\n}\ndef describe_spec(spec: ScheduleSpec) -> str:\n    \"\"\"A best-effort plain-English summary. The LLM normally provides a nicer",
+        "detail": "app.utils.scheduling",
+        "documentation": {}
+    },
+    {
         "label": "parse_time_unit",
         "kind": 2,
         "importPath": "app.utils.time_utils",
         "description": "app.utils.time_utils",
-        "peekOfCode": "def parse_time_unit(unit_text: str) -> Tuple[Optional[int], Optional[str]]:\n    \"\"\"Convert user input time unit to multiplier and normalized unit name.\n    Returns (multiplier_in_minutes, normalized_unit_name) or (None, None) if\n    the unit isn't recognized.\n    \"\"\"\n    unit = unit_text.strip().lower()\n    if unit in (\"m\", \"min\", \"mins\", \"minute\", \"minutes\"):\n        return 1, \"minutes\"\n    elif unit in (\"h\", \"hr\", \"hrs\", \"hour\", \"hours\"):\n        return 60, \"hours\"",
+        "peekOfCode": "def parse_time_unit(unit_text: str) -> Tuple[Optional[int], Optional[str]]:\n    \"\"\"Map a unit word to (minutes_per_unit, normalized_name), or (None, None).\"\"\"\n    unit = unit_text.strip().lower()\n    if unit in (\"m\", \"min\", \"mins\", \"minute\", \"minutes\"):\n        return 1, \"minutes\"\n    if unit in (\"h\", \"hr\", \"hrs\", \"hour\", \"hours\"):\n        return 60, \"hours\"\n    if unit in (\"d\", \"day\", \"days\"):\n        return 60 * 24, \"days\"\n    return None, None",
         "detail": "app.utils.time_utils",
         "documentation": {}
     },
@@ -1126,25 +3188,16 @@
         "kind": 2,
         "importPath": "app.utils.time_utils",
         "description": "app.utils.time_utils",
-        "peekOfCode": "def get_user_timezone(tz_name: Optional[str]):\n    \"\"\"Return a timezone object (ZoneInfo) or UTC on error/None.\"\"\"\n    if not tz_name:\n        return ZoneInfo(\"UTC\") if ZoneInfo else timezone.utc\n    try:\n        return ZoneInfo(tz_name) if ZoneInfo else timezone.utc\n    except ZoneInfoNotFoundError:\n        return ZoneInfo(\"UTC\") if ZoneInfo else timezone.utc\ndef get_time_in_timezone(dt: datetime, tz_name: Optional[str]) -> datetime:\n    \"\"\"Convert a naive or UTC datetime to the user's timezone.",
+        "peekOfCode": "def get_user_timezone(tz_name: Optional[str]) -> ZoneInfo:\n    \"\"\"Return a ZoneInfo for ``tz_name``, falling back to UTC.\"\"\"\n    if not tz_name:\n        return ZoneInfo(\"UTC\")\n    try:\n        return ZoneInfo(tz_name)\n    except (ZoneInfoNotFoundError, ValueError, KeyError):\n        return ZoneInfo(\"UTC\")\ndef now_utc() -> datetime:\n    return datetime.now(timezone.utc)",
         "detail": "app.utils.time_utils",
         "documentation": {}
     },
     {
-        "label": "get_time_in_timezone",
+        "label": "now_utc",
         "kind": 2,
         "importPath": "app.utils.time_utils",
         "description": "app.utils.time_utils",
-        "peekOfCode": "def get_time_in_timezone(dt: datetime, tz_name: Optional[str]) -> datetime:\n    \"\"\"Convert a naive or UTC datetime to the user's timezone.\n    The returned datetime will have tzinfo set to the user's tz.\n    \"\"\"\n    if dt.tzinfo is None:\n        # assume naive datetimes are UTC\n        dt = dt.replace(tzinfo=timezone.utc)\n    user_tz = get_user_timezone(tz_name)\n    return dt.astimezone(user_tz)\ndef now_in_timezone(tz_name: Optional[str]) -> Tuple[datetime, datetime]:",
-        "detail": "app.utils.time_utils",
-        "documentation": {}
-    },
-    {
-        "label": "now_in_timezone",
-        "kind": 2,
-        "importPath": "app.utils.time_utils",
-        "description": "app.utils.time_utils",
-        "peekOfCode": "def now_in_timezone(tz_name: Optional[str]) -> Tuple[datetime, datetime]:\n    \"\"\"Return (utc_now, local_now) where local_now is utc_now in user's tz.\"\"\"\n    utc_now = datetime.now(timezone.utc)\n    user_tz = get_user_timezone(tz_name)\n    local_now = utc_now.astimezone(user_tz)\n    return utc_now, local_now\ndef format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format datetime in user's timezone for display.\"\"\"\n    local_dt = get_time_in_timezone(dt, tz_name)\n    tz_abbr = local_dt.tzname() or \"UTC\"",
+        "peekOfCode": "def now_utc() -> datetime:\n    return datetime.now(timezone.utc)\ndef format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format a datetime in the user's timezone for display.\"\"\"\n    if dt.tzinfo is None:\n        dt = dt.replace(tzinfo=timezone.utc)\n    local = dt.astimezone(get_user_timezone(tz_name))\n    return f\"{local.strftime('%Y-%m-%d %H:%M')} {local.tzname() or 'UTC'}\"\ndef build_interval_spec(\n    amount: int,",
         "detail": "app.utils.time_utils",
         "documentation": {}
     },
@@ -1153,16 +3206,16 @@
         "kind": 2,
         "importPath": "app.utils.time_utils",
         "description": "app.utils.time_utils",
-        "peekOfCode": "def format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format datetime in user's timezone for display.\"\"\"\n    local_dt = get_time_in_timezone(dt, tz_name)\n    tz_abbr = local_dt.tzname() or \"UTC\"\n    return f\"{local_dt.strftime('%Y-%m-%d %H:%M')} {tz_abbr}\"\ndef calculate_next_trigger(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,\n    timezone: Optional[str] = None,",
+        "peekOfCode": "def format_datetime_for_user(dt: datetime, tz_name: Optional[str]) -> str:\n    \"\"\"Format a datetime in the user's timezone for display.\"\"\"\n    if dt.tzinfo is None:\n        dt = dt.replace(tzinfo=timezone.utc)\n    local = dt.astimezone(get_user_timezone(tz_name))\n    return f\"{local.strftime('%Y-%m-%d %H:%M')} {local.tzname() or 'UTC'}\"\ndef build_interval_spec(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,",
         "detail": "app.utils.time_utils",
         "documentation": {}
     },
     {
-        "label": "calculate_next_trigger",
+        "label": "build_interval_spec",
         "kind": 2,
         "importPath": "app.utils.time_utils",
         "description": "app.utils.time_utils",
-        "peekOfCode": "def calculate_next_trigger(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,\n    timezone: Optional[str] = None,\n) -> Tuple[Optional[int], datetime]:\n    \"\"\"Calculate interval_minutes and next_trigger_at in UTC.\n    - amount: numeric amount in the chosen unit\n    - multiplier: minutes per unit (e.g. 60 for hours)\n    - is_recurring: whether the reminder should repeat",
+        "peekOfCode": "def build_interval_spec(\n    amount: int,\n    multiplier: int,\n    is_recurring: bool,\n    tz_name: str = \"UTC\",\n) -> ScheduleSpec:\n    \"\"\"Build a ScheduleSpec for the guided /add flow.\n    A one-time reminder ``amount * multiplier`` minutes from now, or a recurring\n    one on that interval. ``multiplier`` is minutes-per-unit (see\n    :func:`parse_time_unit`).",
         "detail": "app.utils.time_utils",
         "documentation": {}
     },
@@ -1171,35 +3224,44 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\nimport app.db.config_db as config_db\nfrom app.router.notification_router import router as notification_router\nfrom app.services.notification_worker import start_worker, stop_worker\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # initialize DB\n    config_db.init_db()\n    # start background reminder worker\n    # start_worker creates an asyncio.Task; it must be called inside the running event loop",
+        "peekOfCode": "app = FastAPI(title=\"Remindarr\", lifespan=lifespan)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(webhook_router, prefix=\"/api\")\napp.include_router(settings_router, prefix=\"/api\")",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "app",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "app = FastAPI(lifespan=lifespan)\n# CORS - allow your frontend (adjust origins)\napp.add_middleware(CORSMiddleware,\n                   allow_origins=[\"http://localhost:3000\", \"http://127.0.0.1:3000\", \"http://your-nas-ip:port\"],\n                   allow_credentials=True, allow_methods=[\"*\"], allow_headers=[\"*\"], )\n# Mount routers under /api so frontend's API_BASE_URL + paths match\napp.include_router(notification_router, prefix=\"/api\")\n# basic healthcheck\n@app.get(\"/health\")\nasync def health_check():",
-        "detail": "main",
+        "label": "test_parse_recurring",
+        "kind": 2,
+        "importPath": "test_nl_parser",
+        "description": "test_nl_parser",
+        "peekOfCode": "def test_parse_recurring(monkeypatch):\n    nl_parser = _stub(\n        monkeypatch,\n        {\n            \"ok\": True,\n            \"summary\": \"Every day at 9:00 (UTC)\",\n            \"spec\": {\"kind\": \"recurring\", \"timezone\": \"UTC\", \"rrule\": \"FREQ=DAILY;BYHOUR=9;BYMINUTE=0\"},\n            \"reminder_name\": \"Drink coffee\",\n            \"reminder_content\": \"Time for coffee ☕\",\n        },",
+        "detail": "test_nl_parser",
         "documentation": {}
     },
     {
-        "label": "test_one_time_reminder",
+        "label": "test_parse_water_windows",
         "kind": 2,
-        "importPath": "test_time_utils",
-        "description": "test_time_utils",
-        "peekOfCode": "def test_one_time_reminder():\n    # One-time reminder in 30 minutes\n    interval, next_time = calculate_next_trigger(30, 1, is_recurring=False)\n    assert interval is None, \"One-time reminder should have no interval\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"\ndef test_recurring_reminder():\n    # Recurring reminder every 2 hours\n    interval, next_time = calculate_next_trigger(2, 60, is_recurring=True)\n    assert interval == 120, \"Should be 120 minutes (2 hours)\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"",
-        "detail": "test_time_utils",
+        "importPath": "test_nl_parser",
+        "description": "test_nl_parser",
+        "peekOfCode": "def test_parse_water_windows(monkeypatch):\n    nl_parser = _stub(\n        monkeypatch,\n        {\n            \"ok\": True,\n            \"summary\": \"Every hour during work hours (UTC)\",\n            \"spec\": {\n                \"kind\": \"recurring\",\n                \"timezone\": \"UTC\",\n                \"rrule\": \"FREQ=HOURLY;BYMINUTE=0\",",
+        "detail": "test_nl_parser",
         "documentation": {}
     },
     {
-        "label": "test_recurring_reminder",
+        "label": "test_parse_clarification",
         "kind": 2,
-        "importPath": "test_time_utils",
-        "description": "test_time_utils",
-        "peekOfCode": "def test_recurring_reminder():\n    # Recurring reminder every 2 hours\n    interval, next_time = calculate_next_trigger(2, 60, is_recurring=True)\n    assert interval == 120, \"Should be 120 minutes (2 hours)\"\n    assert isinstance(next_time, datetime), \"Should return a datetime\"\ndef test_parse_units():\n    # Test various unit inputs\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")",
-        "detail": "test_time_utils",
+        "importPath": "test_nl_parser",
+        "description": "test_nl_parser",
+        "peekOfCode": "def test_parse_clarification(monkeypatch):\n    nl_parser = _stub(\n        monkeypatch,\n        {\"ok\": False, \"clarification\": \"When should I remind you?\"},\n    )\n    res = nl_parser.parse_reminder(\n        \"remind me to do stuff\", now_local=datetime.now(ZoneInfo(\"UTC\")), user_tz=\"UTC\"\n    )\n    assert not res.ok\n    assert \"When\" in res.clarification",
+        "detail": "test_nl_parser",
+        "documentation": {}
+    },
+    {
+        "label": "test_parse_invalid_json_then_gives_up",
+        "kind": 2,
+        "importPath": "test_nl_parser",
+        "description": "test_nl_parser",
+        "peekOfCode": "def test_parse_invalid_json_then_gives_up(monkeypatch):\n    from app.services import nl_parser\n    monkeypatch.setattr(nl_parser.gateway, \"api_key\", \"test-key\")\n    monkeypatch.setattr(nl_parser.gateway, \"chat\", lambda *a, **k: \"not json at all\")\n    res = nl_parser.parse_reminder(\n        \"blah\", now_local=datetime.now(ZoneInfo(\"UTC\")), user_tz=\"UTC\"\n    )\n    assert not res.ok\n    assert res.clarification\nif __name__ == \"__main__\":",
+        "detail": "test_nl_parser",
         "documentation": {}
     },
     {
@@ -1207,7 +3269,133 @@
         "kind": 2,
         "importPath": "test_time_utils",
         "description": "test_time_utils",
-        "peekOfCode": "def test_parse_units():\n    # Test various unit inputs\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")\n    assert parse_time_unit(\"invalid\") == (None, None)\nif __name__ == \"__main__\":\n    print(\"Running time utility tests...\")\n    print(\"1. Testing one-time reminder...\")\n    test_one_time_reminder()",
+        "peekOfCode": "def test_parse_units():\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")\n    assert parse_time_unit(\"invalid\") == (None, None)\n# --------------------------------------------------------------------------\n# windows\n# --------------------------------------------------------------------------\ndef test_in_window_basic():\n    w = TimeWindow(start=\"09:00\", end=\"18:00\")",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_in_window_basic",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_in_window_basic():\n    w = TimeWindow(start=\"09:00\", end=\"18:00\")\n    assert in_window(time(9, 0), w)\n    assert in_window(time(12, 0), w)\n    assert not in_window(time(18, 0), w)  # end is exclusive\n    assert not in_window(time(8, 59), w)\ndef test_in_window_crosses_midnight():\n    w = TimeWindow(start=\"22:00\", end=\"07:00\")\n    assert in_window(time(23, 0), w)\n    assert in_window(time(2, 0), w)",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_in_window_crosses_midnight",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_in_window_crosses_midnight():\n    w = TimeWindow(start=\"22:00\", end=\"07:00\")\n    assert in_window(time(23, 0), w)\n    assert in_window(time(2, 0), w)\n    assert in_window(time(22, 0), w)\n    assert not in_window(time(7, 0), w)\n    assert not in_window(time(12, 0), w)\ndef test_passes_windows_active_and_blackout():\n    spec = ScheduleSpec(\n        kind=\"recurring\",",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_passes_windows_active_and_blackout",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_passes_windows_active_and_blackout():\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=HOURLY\",\n        active_windows=[TimeWindow(start=\"09:00\", end=\"18:00\")],\n        blackout_windows=[TimeWindow(start=\"13:00\", end=\"14:00\")],\n    )\n    assert passes_windows(datetime(2026, 1, 1, 10, 0), spec)\n    assert not passes_windows(datetime(2026, 1, 1, 13, 30), spec)  # lunch blackout",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_one_time_future",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_one_time_future():\n    spec = ScheduleSpec(kind=\"one_time\", timezone=\"UTC\", at=datetime(2026, 6, 22, 15, 0))\n    after = datetime(2026, 6, 22, 12, 0, tzinfo=UTC)\n    nxt = compute_next_trigger(spec, after)\n    assert nxt == datetime(2026, 6, 22, 15, 0, tzinfo=UTC)\ndef test_one_time_past_returns_none():\n    spec = ScheduleSpec(kind=\"one_time\", timezone=\"UTC\", at=datetime(2026, 6, 22, 10, 0))\n    after = datetime(2026, 6, 22, 12, 0, tzinfo=UTC)\n    assert compute_next_trigger(spec, after) is None\ndef test_one_time_timezone_conversion():",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_one_time_past_returns_none",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_one_time_past_returns_none():\n    spec = ScheduleSpec(kind=\"one_time\", timezone=\"UTC\", at=datetime(2026, 6, 22, 10, 0))\n    after = datetime(2026, 6, 22, 12, 0, tzinfo=UTC)\n    assert compute_next_trigger(spec, after) is None\ndef test_one_time_timezone_conversion():\n    # 09:00 in Asia/Kolkata (UTC+5:30) == 03:30 UTC\n    spec = ScheduleSpec(kind=\"one_time\", timezone=\"Asia/Kolkata\", at=datetime(2026, 6, 22, 9, 0))\n    after = datetime(2026, 6, 22, 0, 0, tzinfo=UTC)\n    nxt = compute_next_trigger(spec, after)\n    assert nxt == datetime(2026, 6, 22, 3, 30, tzinfo=UTC)",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_one_time_timezone_conversion",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_one_time_timezone_conversion():\n    # 09:00 in Asia/Kolkata (UTC+5:30) == 03:30 UTC\n    spec = ScheduleSpec(kind=\"one_time\", timezone=\"Asia/Kolkata\", at=datetime(2026, 6, 22, 9, 0))\n    after = datetime(2026, 6, 22, 0, 0, tzinfo=UTC)\n    nxt = compute_next_trigger(spec, after)\n    assert nxt == datetime(2026, 6, 22, 3, 30, tzinfo=UTC)\n# --------------------------------------------------------------------------\n# compute_next_trigger — recurring (the headline examples)\n# --------------------------------------------------------------------------\ndef test_daily_at_9am():",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_daily_at_9am",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_daily_at_9am():\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=DAILY;BYHOUR=9;BYMINUTE=0\",\n        dtstart=datetime(2026, 6, 1, 0, 0),\n    )\n    after = datetime(2026, 6, 22, 12, 0, tzinfo=UTC)  # past 9am today\n    nxt = compute_next_trigger(spec, after)\n    assert nxt == datetime(2026, 6, 23, 9, 0, tzinfo=UTC)  # tomorrow 9am",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_odd_saturdays_even_months",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_odd_saturdays_even_months():\n    # 1st/3rd/5th Saturday of even months at 9am.\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=MONTHLY;BYMONTH=2,4,6,8,10,12;BYDAY=SA;BYSETPOS=1,3,5;BYHOUR=9;BYMINUTE=0\",\n        dtstart=datetime(2026, 1, 1, 0, 0),\n    )\n    after = datetime(2026, 6, 1, 0, 0, tzinfo=UTC)\n    nxt = compute_next_trigger(spec, after)",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_water_during_work_hours_skips_night",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_water_during_work_hours_skips_night():\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=HOURLY;BYMINUTE=0\",\n        active_windows=[TimeWindow(start=\"09:00\", end=\"18:00\")],\n        blackout_windows=[TimeWindow(start=\"22:00\", end=\"07:00\")],\n        dtstart=datetime(2026, 6, 22, 0, 0),\n    )\n    # At 19:00 the next fire should jump to 09:00 next day (outside active window).",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_until_exhaustion",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_until_exhaustion():\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=DAILY;BYHOUR=9;BYMINUTE=0\",\n        dtstart=datetime(2026, 6, 1, 0, 0),\n        until=datetime(2026, 6, 3, 0, 0),\n    )\n    # After the until bound there are no more occurrences.\n    after = datetime(2026, 6, 3, 12, 0, tzinfo=UTC)",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_advance_past_backlog_no_flood",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_advance_past_backlog_no_flood():\n    spec = ScheduleSpec(\n        kind=\"recurring\",\n        timezone=\"UTC\",\n        rrule=\"FREQ=HOURLY;BYMINUTE=0\",\n        dtstart=datetime(2026, 6, 22, 0, 0),\n    )\n    # Reminder last scheduled at 10:00 but the worker was down until 15:00.\n    last_scheduled = datetime(2026, 6, 22, 10, 0, tzinfo=UTC)\n    now = datetime(2026, 6, 22, 15, 5, tzinfo=UTC)",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_build_interval_spec_one_time",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_build_interval_spec_one_time():\n    spec = build_interval_spec(30, 1, is_recurring=False, tz_name=\"UTC\")\n    assert spec.kind == \"one_time\"\n    assert spec.at is not None\ndef test_build_interval_spec_recurring_hours():\n    spec = build_interval_spec(2, 60, is_recurring=True, tz_name=\"UTC\")\n    assert spec.kind == \"recurring\"\n    assert \"FREQ=HOURLY;INTERVAL=2\" in spec.rrule\nif __name__ == \"__main__\":\n    import sys",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_build_interval_spec_recurring_hours",
+        "kind": 2,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "def test_build_interval_spec_recurring_hours():\n    spec = build_interval_spec(2, 60, is_recurring=True, tz_name=\"UTC\")\n    assert spec.kind == \"recurring\"\n    assert \"FREQ=HOURLY;INTERVAL=2\" in spec.rrule\nif __name__ == \"__main__\":\n    import sys\n    import pytest\n    sys.exit(pytest.main([__file__, \"-v\"]))",
+        "detail": "test_time_utils",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "kind": 5,
+        "importPath": "test_time_utils",
+        "description": "test_time_utils",
+        "peekOfCode": "UTC = timezone.utc\n# --------------------------------------------------------------------------\n# parse_time_unit\n# --------------------------------------------------------------------------\ndef test_parse_units():\n    assert parse_time_unit(\"minutes\") == (1, \"minutes\")\n    assert parse_time_unit(\"hours\") == (60, \"hours\")\n    assert parse_time_unit(\"days\") == (60 * 24, \"days\")\n    assert parse_time_unit(\"invalid\") == (None, None)\n# --------------------------------------------------------------------------",
         "detail": "test_time_utils",
         "documentation": {}
     }

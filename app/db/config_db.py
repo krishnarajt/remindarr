@@ -1,48 +1,28 @@
 # app/db/config_db.py
 from sqlalchemy import text
-from sqlmodel import SQLModel, create_engine, Session
-from app.constants.constants import Settings
+from sqlmodel import Session, SQLModel, create_engine
 
-# Build the database URL
-db_url = (
-    f"postgresql+psycopg2://"
-    f"{Settings().db_user}:{Settings().db_password}@"
-    f"{Settings().db_host}:{Settings().db_port}/{Settings().db_name}"
-)
+from app.common.constants import settings
 
-# Create SQLModel engine (sync)
-engine = create_engine(db_url, echo=True, future=True)
+# Sync SQLAlchemy engine (psycopg2). echo off in normal operation.
+engine = create_engine(settings.database_url, echo=False, future=True, pool_pre_ping=True)
+
 
 def init_db() -> None:
-    """
-    Initialize database schema and all SQLModel tables.
-    """
-    # Get our target schema
-    schema = Settings().db_schema
+    """Create the target schema (if needed) and all tables."""
+    schema = settings.db_schema
 
-    # Create a raw connection to create the schema
     with engine.begin() as conn:
-        # Check if schema exists
-        result = conn.execute(
-            text(
-                "SELECT schema_name FROM information_schema.schemata "
-                "WHERE schema_name = :schema"
-            ),
-            {"schema": schema}
-        )
-        schema_exists = result.scalar() is not None
-
-        # Create schema if it doesn't exist
-        if not schema_exists:
+        if schema and schema != "public":
             conn.execute(text(f'CREATE SCHEMA IF NOT EXISTS "{schema}"'))
-            conn.commit()
 
-    # Now create all tables in the schema
+    # Import models so they register on SQLModel.metadata before create_all.
+    import app.db.models  # noqa: F401
+
     SQLModel.metadata.create_all(engine)
 
+
 def get_session():
-    """
-    FastAPI dependency for a per-request session.
-    """
+    """FastAPI dependency: one Session per request."""
     with Session(engine) as session:
         yield session
