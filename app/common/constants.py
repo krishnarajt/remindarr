@@ -39,7 +39,8 @@ class Settings(BaseSettings):
     # ----- LLM gateway --------------------------------------------------
     llm_gateway_url: str = "http://llmgateway:8000"
     llm_gateway_api_key: Optional[str] = None
-    llm_model: str = "gpt-4o-mini"
+    llm_gateway_chat_path: str = "/api/chat"
+    llm_model: str = "gemini-flash-latest"
 
     # ----- Misc ---------------------------------------------------------
     # Default timezone for users who never set one. IANA name.

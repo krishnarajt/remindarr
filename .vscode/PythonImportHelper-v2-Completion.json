@@ -1738,6 +1738,15 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "httpx",
         "kind": 6,
         "isExtraImport": true,
@@ -1756,6 +1765,22 @@
     },
     {
         "label": "gateway",
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
+        "isExtraImport": true,
+        "detail": "app.services.llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "LLMGatewayClient",
+        "importPath": "app.services.llm_gateway",
+        "description": "app.services.llm_gateway",
+        "isExtraImport": true,
+        "detail": "app.services.llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "LLMGatewayError",
         "importPath": "app.services.llm_gateway",
         "description": "app.services.llm_gateway",
         "isExtraImport": true,
@@ -1930,6 +1955,15 @@
         "description": "app.services.notion_sync",
         "isExtraImport": true,
         "detail": "app.services.notion_sync",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
         "documentation": {}
     },
     {
@@ -2756,7 +2790,7 @@
         "kind": 6,
         "importPath": "app.services.llm_gateway",
         "description": "app.services.llm_gateway",
-        "peekOfCode": "class LLMGatewayError(RuntimeError):\n    pass\nclass LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n    ):\n        self.base_url = (base_url or settings.llm_gateway_url).rstrip(\"/\")",
+        "peekOfCode": "class LLMGatewayError(RuntimeError):\n    pass\nclass LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n        chat_path: Optional[str] = None,\n        max_attempts: int = 3,",
         "detail": "app.services.llm_gateway",
         "documentation": {}
     },
@@ -2765,7 +2799,7 @@
         "kind": 6,
         "importPath": "app.services.llm_gateway",
         "description": "app.services.llm_gateway",
-        "peekOfCode": "class LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n    ):\n        self.base_url = (base_url or settings.llm_gateway_url).rstrip(\"/\")\n        self.api_key = api_key or settings.llm_gateway_api_key\n        self.model = model or settings.llm_model",
+        "peekOfCode": "class LLMGatewayClient:\n    def __init__(\n        self,\n        base_url: Optional[str] = None,\n        api_key: Optional[str] = None,\n        model: Optional[str] = None,\n        chat_path: Optional[str] = None,\n        max_attempts: int = 3,\n    ):\n        self.base_url = (base_url or settings.llm_gateway_url).rstrip(\"/\")",
         "detail": "app.services.llm_gateway",
         "documentation": {}
     },
@@ -3229,6 +3263,42 @@
         "documentation": {}
     },
     {
+        "label": "test_chat_uses_configurable_native_gateway_contract",
+        "kind": 2,
+        "importPath": "test_llm_gateway",
+        "description": "test_llm_gateway",
+        "peekOfCode": "def test_chat_uses_configurable_native_gateway_contract(monkeypatch):\n    client = LLMGatewayClient(\n        base_url=\"https://gateway.test/\",\n        api_key=\"gw-test\",\n        model=\"gemini-flash-latest\",\n        chat_path=\"custom/chat\",\n        max_attempts=1,\n    )\n    calls = []\n    def post(url, **kwargs):",
+        "detail": "test_llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "test_chat_retries_transient_gateway_errors",
+        "kind": 2,
+        "importPath": "test_llm_gateway",
+        "description": "test_llm_gateway",
+        "peekOfCode": "def test_chat_retries_transient_gateway_errors(monkeypatch):\n    client = LLMGatewayClient(api_key=\"gw-test\", max_attempts=3)\n    responses = iter(\n        [_response(503, text=\"busy\"), _response(429, text=\"slow down\"), _response(200, json={\"content\": \"ok\"})]\n    )\n    calls = []\n    monkeypatch.setattr(client._client, \"post\", lambda *a, **k: calls.append(1) or next(responses))\n    monkeypatch.setattr(\"app.services.llm_gateway.time.sleep\", lambda _: None)\n    assert client.chat(\"hello\") == \"ok\"\n    assert len(calls) == 3",
+        "detail": "test_llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "test_chat_does_not_retry_auth_failure",
+        "kind": 2,
+        "importPath": "test_llm_gateway",
+        "description": "test_llm_gateway",
+        "peekOfCode": "def test_chat_does_not_retry_auth_failure(monkeypatch):\n    client = LLMGatewayClient(api_key=\"bad-key\", max_attempts=3)\n    calls = []\n    monkeypatch.setattr(\n        client._client,\n        \"post\",\n        lambda *a, **k: calls.append(1) or _response(401, text=\"invalid key\"),\n    )\n    with pytest.raises(LLMGatewayError, match=\"401\"):\n        client.chat(\"hello\")",
+        "detail": "test_llm_gateway",
+        "documentation": {}
+    },
+    {
+        "label": "test_chat_wraps_invalid_gateway_json",
+        "kind": 2,
+        "importPath": "test_llm_gateway",
+        "description": "test_llm_gateway",
+        "peekOfCode": "def test_chat_wraps_invalid_gateway_json(monkeypatch):\n    client = LLMGatewayClient(api_key=\"gw-test\", max_attempts=1)\n    monkeypatch.setattr(client._client, \"post\", lambda *a, **k: _response(200, text=\"not-json\"))\n    with pytest.raises(LLMGatewayError, match=\"invalid JSON\"):\n        client.chat(\"hello\")",
+        "detail": "test_llm_gateway",
+        "documentation": {}
+    },
+    {
         "label": "test_parse_recurring",
         "kind": 2,
         "importPath": "test_nl_parser",
@@ -3252,6 +3322,15 @@
         "importPath": "test_nl_parser",
         "description": "test_nl_parser",
         "peekOfCode": "def test_parse_clarification(monkeypatch):\n    nl_parser = _stub(\n        monkeypatch,\n        {\"ok\": False, \"clarification\": \"When should I remind you?\"},\n    )\n    res = nl_parser.parse_reminder(\n        \"remind me to do stuff\", now_local=datetime.now(ZoneInfo(\"UTC\")), user_tz=\"UTC\"\n    )\n    assert not res.ok\n    assert \"When\" in res.clarification",
+        "detail": "test_nl_parser",
+        "documentation": {}
+    },
+    {
+        "label": "test_parse_does_not_send_provider_specific_response_format",
+        "kind": 2,
+        "importPath": "test_nl_parser",
+        "description": "test_nl_parser",
+        "peekOfCode": "def test_parse_does_not_send_provider_specific_response_format(monkeypatch):\n    from app.services import nl_parser\n    payload = {\n        \"ok\": True,\n        \"summary\": \"Every day at 9:00 (UTC)\",\n        \"spec\": {\"kind\": \"recurring\", \"timezone\": \"UTC\", \"rrule\": \"FREQ=DAILY;BYHOUR=9;BYMINUTE=0\"},\n    }\n    calls = []\n    def fake_chat(*args, **kwargs):\n        calls.append(kwargs)",
         "detail": "test_nl_parser",
         "documentation": {}
     },
