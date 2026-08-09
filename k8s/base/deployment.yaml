@@ -4,7 +4,7 @@ metadata:
   name: remindarr
 spec:
   # Single replica: conversational state is in-process (see app/api/state.py).
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: remindarr
