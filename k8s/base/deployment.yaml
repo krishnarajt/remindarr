@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/krishnarajt/remindarr:git-31ddc5393ebb69a038ba6a1ec93cf2e120aed25a
+          image: ghcr.io/krishnarajt/remindarr:git-d8960dd1bce7848e67c975aeaef5659613020302
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
